@@ -8,3 +8,32 @@ img.logo1{
     bottom: 3632px;
     
 }
+.position{
+    position: absolute;
+    width: 1280px;
+    height: 70px;
+    left: 0;
+    bottom: 3537px;
+    top: 128px;
+
+
+}
+li.menu{
+    list-style: none;
+    display: inline;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23.44;
+    color: #FFFFFF;
+
+}
+ul.posmenu{
+    width: 805px;
+    height: 19px;
+    top: 146px;
+    left: 83px;
+    margin: 18px 392px 33px 83px;
+
+}
