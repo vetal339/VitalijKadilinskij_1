@@ -6,7 +6,235 @@ body{
     height: 3613px;
     margin: 0 auto;
     background: #E5E5E5;
+}
+footer{
+    position: inherit;
+    height: 314px;
+    left: 0;
+    bottom: -858px;
+    background: #6AB66B;
+}
+.end{
+    position: inherit;
+    width: 1280px;
+    height: 1188px;
+    top: 858px;
+    background: #F5F5F5;
+}
+.Newscompani{
+    position: absolute;
+    width: 503px;
+    height: 58px;
+    right: 796px;
+    top: 130px;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    padding: 0;
+    color: #303030;
 
 }
+.boxnews{
+    position: absolute;
+    width: 261px;
+    height: 59px;
+    top: 0px;
+    left: 484px;
+    margin: 131px 56px 64px 479px;
+    padding: 7px 0 19px 0;
+    background: #F5F5F5;
+    border: 1px solid #1B9448;
+    box-sizing: border-box;
+    text-decoration-color: #1B9448;
+}
+.linkallnews{
+    position: inherit;
+    width: 261px;
+    height: 33px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 17px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: #1B9448;
+}
+.linkallnews:hover{
+    color: #FFFFFF;
+}
+.boxnews:hover{
+    background: #1B9448;
+}
+img.coffeejpg{
+    position: absolute;
+    margin: 254px 856px 655.05px 55px;
+    float: left;
+}
+.wwindowinfo{
+    position: absolute;
+    width: 801px;
+    height: 279px;
+    background: #FFFFFF;
+    margin: 254px 55px 655px 424px;
+}
+.articlemain{
+    position: absolute;
+    width: 676px;
+    height: 156px;
+    margin: 40px 62px 83px 63px;
+}
+.boldertext{
+    height: 156px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 35px;
+    color: #393939;
+}
+.description{
+    position: absolute;
+    width: 676px;
+    height: 91px;
+    Top: 80px;
+    Left: 0;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    line-height: 30px;
+    color: #000000;
+}
+.date1{
+    position: absolute;
+    width: 639px;
+    height: 42px;
+    ont-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 40px;
+    color: #9B9B9B;
+    padding: 23px 0 0 0;
+}
+.conteiner1{
+    display: inline-flex;
+    position: absolute;
+    width: 1170px;
+    left: 54px;
+    top: 569px;
+}
+.margin1{
+    margin-right: 31px;
+}
+.margin2{
+    margin-right: 29px;
+}
+.margin3{
+    margin-right: 56px;
+}
+.conteiner2{
+    display: inline-flex;
+    position: absolute;
+    left: 55px;
+    top: 846px;
+}
+.conteinerfirst{
+    position: relative;
+    width: 369px;
+    height: 212px;
+    margin-right: 31px;
+    background: #FFFFFF;
+}
+.conteinertwo{
+    position: relative;
+    width: 369px;
+    height: 212px;
+    margin-right: 29px;
+    background: #FFFFFF;
+}
+.conteinerthree{
+    position: relative;
+    width: 369px;
+    height: 212px;
+    margin-right: 56px;
+    background: #FFFFFF;
+}
+.info1{
+    width: 293px;
+    height: 50px;
+    padding: 27px 37px 0 39px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 32px;
+}
+.info2{
+    width: 294px;
+    height: 92px;
+    padding: 27px 36px 0 39px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 32px;
+}
+.info3{
+    width: 297px;
+    height: 50px;
+    padding: 27px 33px 0 39px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 32px;
+}
+.dateinfo1{
+    position: absolute;
+    width: 219px;
+    height: 63px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 40px;
+    color: #949494;
+    padding: 57px 111px 15px 39px;
+}
+.dateinfo2{
+    position: absolute;
+    width: 219px;
+    height: 63px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 40px;
+    color: #949494;
+    padding: 15px 111px 15px 39px;
+}
+.dateinfo3{
+    position: absolute;
+    width: 219px;
+    height: 63px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 40px;
+    color: #949494;
+    padding: 57px 111px 15px 39px;
+}
+.secondul{
+    position: absolute;
+    width: 697px;
+    height: 19px;
+}
+
 
 
