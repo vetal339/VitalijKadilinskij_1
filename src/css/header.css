@@ -78,8 +78,8 @@ a.internetshop{
     margin-bottom: 1px;
     color: #FFFFFF;
 }
-ul.firstul:hover:active{
-    list-style-type: disc;
+.link1.link:hover{
+    list-style-type: circle;
 }
 img.ellips{
     position: absolute;
