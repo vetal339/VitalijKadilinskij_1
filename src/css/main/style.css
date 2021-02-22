@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@media(min-width: 1280px) {
+
+
+body{
+    position: relative;
+    width: 1280px;
+    height: 3613px;
+    margin: 0 auto;
+    background: #E5E5E5;
+}
+footer{
+    position: inherit;
+    height: 314px;
+    left: 0;
+    bottom: -858px;
+    background: #6AB66B;
+}
+.end{
+    position: inherit;
+    width: 1280px;
+    height: 1188px;
+    top: 858px;
+    background: #F5F5F5;
+}
+}

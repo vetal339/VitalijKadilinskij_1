@@ -1,0 +1,177 @@
+@media(min-width: 1280px) {
+    img.logo1 {
+        position: absolute;
+        width: 280px;
+        height: 140px;
+        left: 500px;
+        top: -63px;
+
+
+    }
+
+    .poslogo1 {
+        height: 140px;
+        width: 280px;
+        left: 500px;
+        top: -63px;
+        margin: 1px;
+
+    }
+
+    img.fount {
+        position: absolute;
+        width: 1280px;
+        height: 198px;
+        left: 0;
+        top: 192px;
+        background: #6AB66B;
+    }
+
+    /*green fon */
+    img.logo2 {
+        position: absolute;
+        width: 140px;
+        height: 70px;
+        left: 570px;
+        top: 225px;
+
+    }
+
+    .menu {
+        position: absolute;
+        width: 1280px;
+        height: 70px;
+        left: 0;
+        top: 320px;
+    }
+
+    ul.firstul {
+        position: absolute;
+        width: 805px;
+        height: 19px;
+        left: 83px;
+        padding-left: 0;
+        color: #FFFFFF;
+    }
+
+    li.link1 {
+        display: inline;
+        margin-right: 31px;
+        margin-left: 31px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 23px;
+        color: #FFFFFF;
+    }
+
+    a.link {
+        position: relative;
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    a.internetshop {
+        text-decoration: none;
+        width: 197px;
+        height: 46px;
+        position: absolute;
+        font-family: Roboto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 14px;
+        left: 941px;
+        top: 20px;
+        margin-bottom: 1px;
+        color: #FFFFFF;
+    }
+
+    .link1.link:hover {
+        list-style-type: circle;
+    }
+
+    img.ellips {
+        position: absolute;
+        width: 6px;
+        height: 6px;
+        border-radius: 3px;
+        left: 87px;
+        top: 26px;
+        background: #FFFFFF;
+    }
+
+    .svg {
+        position: absolute;
+        width: 17.32px;
+        height: 18.54px;
+        left: 913px;
+        top: 17px;
+    }
+
+    a.internetshop:hover {
+        text-decoration: underline;
+    }
+
+    img.ru {
+        position: inherit;
+        left: 1177px;
+        top: 20px;
+    }
+
+    .vector {
+        position: absolute;
+        width: 10px;
+        height: 5px;
+        left: 1215px;
+        top: 26px;
+
+    }
+
+    .centr {
+        position: absolute;
+        height: 469px;
+        width: 1280px;
+        top: 1059px;
+        background: #F5F5F5;
+    }
+
+    .world {
+        position: absolute;
+        width: 209px;
+        height: 208px;
+        left: 223px;
+        top: 130px;
+        float: left;
+    }
+
+    .text {
+        position: absolute;
+        width: 586px;
+        height: 214px;
+        left: 600px;
+        top: 130px;
+        font-size: 22px;
+        line-height: 32px;
+        font-style: normal;
+        font-family: "Roboto Light";
+    }
+
+    div p {
+        margin: 0 0 30px 0;
+    }
+
+    #green {
+        font-weight: 900;
+        color: #6AB66B;
+    }
+
+    .outlogo {
+        position: absolute;
+        width: 418px;
+        height: 416px;
+        left: -655px;
+        top: 2px;
+    }
+}
