@@ -11,14 +11,14 @@ body{
     background: #E5E5E5;
 }
 footer{
-    position: inherit;
+    position: relative;
     height: 314px;
     left: 0;
     bottom: -858px;
     background: #6AB66B;
 }
 .end{
-    position: inherit;
+    position: relative;
     width: 1280px;
     height: 1188px;
     top: 858px;
