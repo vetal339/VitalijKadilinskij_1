@@ -28,7 +28,7 @@
     }
 
     /*green fon */
-    img.logo2 {
+    .logo2 {
         position: absolute;
         width: 140px;
         height: 70px;
@@ -46,11 +46,10 @@
     }
 
     ul.firstul {
-        position: absolute;
         width: 805px;
         height: 19px;
-        left: 83px;
-        padding-left: 0;
+        padding-left: 6.5%;
+        margin-bottom: 33px;
         color: #FFFFFF;
     }
 
@@ -67,7 +66,6 @@
     }
 
     a.link {
-        position: relative;
         text-decoration: none;
         color: #FFFFFF;
     }
@@ -93,7 +91,7 @@
     }
 
     img.ellips {
-        position: absolute;
+        position: inherit;
         width: 6px;
         height: 6px;
         border-radius: 3px;
@@ -103,7 +101,7 @@
     }
 
     .svg {
-        position: absolute;
+        position: inherit;
         width: 17.32px;
         height: 18.54px;
         left: 913px;
@@ -130,7 +128,10 @@
     }
 
     .centr {
-        position: absolute;
+        justify-content: space-around;
+        display: inline-flex;
+        align-items: center;
+        position: inherit;
         height: 469px;
         width: 1280px;
         top: 1059px;
@@ -138,26 +139,24 @@
     }
 
     .world {
-        position: absolute;
+        display: inline-flex;
+        align-items: center;
         width: 209px;
         height: 208px;
         left: 223px;
-        top: 130px;
-        float: left;
-    }
+        top: 997px;
 
+    }
     .text {
-        position: absolute;
+        display: flex;
+        flex-direction: column;
         width: 586px;
         height: 214px;
-        left: 600px;
-        top: 130px;
         font-size: 22px;
         line-height: 32px;
         font-style: normal;
         font-family: "Roboto Light";
     }
-
     div p {
         margin: 0 0 30px 0;
     }
@@ -172,6 +171,6 @@
         width: 418px;
         height: 416px;
         left: -655px;
-        top: 2px;
+        top: 1089px;
     }
 }

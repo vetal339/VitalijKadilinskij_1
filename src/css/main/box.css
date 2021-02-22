@@ -1,85 +1,86 @@
 @media(min-width: 1280px) {
     .midle {
-        position: inherit;
         width: 1280px;
         height: 897px;
-        top: 858px;
         background: #E7EFE7;
     }
 
     h2 {
+        text-align: center;
         font-family: Roboto;
         font-weight: 700;
         font-style: normal;
         font-size: 40px;
         line-height: 52px;
-        width: 956px;
+        width: 1280px;
         height: 159px;
         margin: 0;
-        padding: 120px 162px 618px 162px;
-        text-align: center;
+        padding-top: 9.4%;
+
+    }
+    .centrconteiner{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
     }
 
     .item1 {
-        position: absolute;
+        display: flex;
+        justify-content: space-around;
         width: 441px;
         height: 146px;
-        top: 293px;
-        left: 155px;
         box-shadow: 0 0 20px rgba(27, 148, 72, 0.3);
         border-radius: 10px;
         background: #FAFAFA;
+        margin-bottom: 2%;
     }
 
     .item2 {
-        position: absolute;
+        display: flex;
+        justify-content: space-around;
         width: 441px;
         height: 146px;
-        top: 293px;
-        left: 684px;
         box-shadow: 0 0 20px rgba(27, 148, 72, 0.3);
         border-radius: 10px;
         background: #FAFAFA;
+        margin-bottom: 2%;
     }
 
     .bord1 {
-        position: absolute;
+        display: inline-flex;
         width: 80px;
         height: 80px;
-        margin: 33px 328px 33px 33px;
         background: #FFFFFF;
         border-radius: 50%;
         box-shadow: 0 0 10px rgba(27, 148, 72, 0.5);
+        margin: 7.5% 6.5% 7.5% 7.5%;
     }
 
     .bord2 {
-        position: absolute;
+        display: inline-flex;
         width: 80px;
         height: 80px;
-        margin: 33px 328px 33px 33px;
         background: #FFFFFF;
         border-radius: 50%;
         box-shadow: 0 0 10px rgba(27, 148, 72, 0.5);
+        margin: 7.5% 5.5% 7.5% 7.5%;
+
     }
 
     .notebook {
-        position: absolute;
         width: 28px;
         height: 44.56px;
-        margin: 15px 26px 20.44px 26px;
-
-
+        margin: 19.5% 40% 25% 32.5%;
     }
 
     .medal {
-        position: absolute;
         width: 40.65px;
         height: 48.68px;
-        margin: 17.04px 19.68px 14.29px 19.68px;
+        margin: 21.5% 24.6% 18% 24.62%;
+
     }
 
     .textbox1 {
-        position: absolute;
         width: 276px;
         height: 79px;
         font-family: Roboto;
@@ -87,11 +88,10 @@
         font-weight: normal;
         font-size: 17px;
         line-height: 22px;
-        padding: 38px 24px 29px 141px;
+        margin: 9% 5.5% 6.6% 0%;
     }
 
     .textbox2 {
-        position: absolute;
         width: 297px;
         height: 79px;
         font-family: Roboto;
@@ -99,12 +99,11 @@
         font-style: normal;
         font-weight: normal;
         line-height: 22px;
-        padding: 57px 8px 10px 136px;
+        margin: 13% 2% 2.3% 0;
 
     }
 
     .item3 {
-        position: absolute;
         width: 441px;
         height: 146px;
         top: 459px;
@@ -112,10 +111,10 @@
         box-shadow: 0 0 20px rgba(27, 148, 72, 0.3);
         border-radius: 10px;
         background: #FAFAFA;
+        margin-bottom: 2%;
     }
 
     .item4 {
-        position: absolute;
         width: 441px;
         height: 146px;
         top: 459px;
@@ -123,44 +122,38 @@
         box-shadow: 0 0 20px rgba(27, 148, 72, 0.3);
         border-radius: 10px;
         background: #FAFAFA;
+        margin-bottom: 2%;
     }
 
     .bord3 {
-        position: absolute;
         width: 80px;
         height: 80px;
-        margin: 33px 328px 33px 33px;
         background: #FFFFFF;
         border-radius: 50%;
         box-shadow: 0 0 10px rgba(27, 148, 72, 0.5);
     }
 
     .bord4 {
-        position: absolute;
         width: 80px;
         height: 80px;
-        margin: 33px 328px 33px 33px;
         background: #FFFFFF;
         border-radius: 50%;
         box-shadow: 0 0 10px rgba(27, 148, 72, 0.5);
     }
 
     .car {
-        position: absolute;
         width: 48.89px;
         height: 36.3px;
-        margin: 22.22px 17.04px 12.59px 17.04px;
+
     }
 
     .tea {
-        position: absolute;
         width: 50.83px;
         height: 41.3px;
-        margin: 18.26px 14.61px 20.44px 14.56px;
+
     }
 
     .textbox3 {
-        position: absolute;
         width: 297px;
         height: 79px;
         font-family: Roboto;
@@ -172,7 +165,6 @@
     }
 
     .textbox4 {
-        position: absolute;
         width: 297px;
         height: 79px;
         font-family: Roboto;
@@ -184,63 +176,57 @@
     }
 
     .item5 {
-        position: absolute;
+        display: inline-flex;
         width: 441px;
         height: 146px;
-        top: 623px;
-        left: 155px;
         box-shadow: 0 0 20px rgba(27, 148, 72, 0.3);
         border-radius: 10px;
         background: #FAFAFA;
     }
 
     .item6 {
-        position: absolute;
+        display: inline-flex;
         width: 441px;
         height: 146px;
-        top: 623px;
-        left: 684px;;
         box-shadow: 0 0 20px rgba(27, 148, 72, 0.3);
         border-radius: 10px;
         background: #FAFAFA;
     }
 
     .bord5 {
-        position: absolute;
         width: 80px;
         height: 80px;
-        margin: 33px 328px 33px 33px;
         background: #FFFFFF;
         border-radius: 50%;
         box-shadow: 0 0 10px rgba(27, 148, 72, 0.5);
+        margin: 7.8% 5.4% 7.3% 7.5%;
     }
 
     .bord6 {
-        position: absolute;
         width: 80px;
         height: 80px;
-        margin: 33px 328px 33px 33px;
         background: #FFFFFF;
         border-radius: 50%;
         box-shadow: 0 0 10px rgba(27, 148, 72, 0.5);
+        margin: 7.5% 5.3% 7.5% 7.5%;
     }
 
     .warehouse {
-        position: absolute;
         width: 48.89px;
         height: 36.3px;
-        margin: 22.22px 17.04px 12.59px 17.04px;
+        margin: 25% 20% 27% 20%;
+
     }
 
     .coffee {
-        position: absolute;
         width: 50.83px;
         height: 41.3px;
-        margin: 18.26px 14.61px 20.44px 14.56px;
+        margin: 23% 19% 25% 19%;
+
     }
 
     .textbox5 {
-        position: absolute;
+        display: flex;
         width: 268px;
         height: 87px;
         font-family: Roboto;
@@ -248,11 +234,11 @@
         font-weight: normal;
         font-size: 17px;
         line-height: 22px;
-        padding: 26px 37px 33px 136px;
+        margin: 6% 8.5%  7.5% 0;
     }
 
     .textbox6 {
-        position: absolute;
+        display: flex;
         width: 272px;
         height: 79px;
         font-family: Roboto;
@@ -260,6 +246,6 @@
         font-style: normal;
         font-weight: normal;
         line-height: 22px;
-        padding: 44px 33px 23px 136px;
+        margin: 10% 7.5%  5.3% 0;
     }
 }
