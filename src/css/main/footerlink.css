@@ -1,9 +1,14 @@
-@media(min-width: 1280px) {
-    .secondul {
+@media(min-width: 769px) {
+    .buttomstring{
+        display: inline-flex;
+        width: 100%;
+        margin-top: 5.4%;
+    }
+    .buttommenu {
         width: 697px;
         height: 19px;
-        padding-left: 0;
-        margin: 69px 528px 226px 55px;
+       margin-top: 0;
+        margin-right: 16.3%;
         list-style-type: none;
     }
 
@@ -15,7 +20,6 @@
         font-size: 20px;
         line-height: 23.44px;
         color: #FFFFFF;
-        position: relative;
         text-decoration: none;
         margin-left: 15px;
     }
@@ -25,10 +29,6 @@
     }
 
     .footerinshop {
-        position: absolute;
-        width: 273px;
-        height: 37px;
-        margin: 74px 47px 203px 960px;
         font-family: "Roboto Light";
         font-weight: 300;
         font-style: normal;
@@ -36,41 +36,40 @@
         line-height: 14px;
         color: #FFFFFF;
         text-decoration: none;
+        margin-top: 0.4%;
     }
 
     .footerinshop:hover {
         text-decoration: underline;
     }
-
+.buttominfo{
+    width: 100%;
+    display: inline-flex;
+}
     .footerinfo {
-        position: absolute;
         width: 533px;
         height: 79px;
-        margin: 140px 692px 95px 55px;
         font-family: "Roboto Light";
         font-weight: 400;
         font-style: normal;
         font-size: 17px;
         line-height: 19.92px;
         color: rgba(255, 255, 255, 0.5);
+        margin: 4.1% 29.9% 0 4.3%;
 
-    }
-
-    .indent {
-        padding-bottom: 15px;
-        margin-bottom: 0;
     }
 
     .jobtime {
-        position: absolute;
-        width: 255px;
-        height: 17px;
         font-family: Roboto;
         font-weight: 500;
         font-style: normal;
         font-size: 20px;
         line-height: 23.44px;
         color: #FFFFFF;
-        margin: 138px 55px 159px 970px;
+        margin: 3.2% 2% 0 0;
+
+    }
+    .indent{
+        margin-bottom: 2.5%;
     }
 }

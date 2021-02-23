@@ -1,4 +1,4 @@
-@media(min-width: 1280px) {
+@media(min-width: 769px) {
     .midle {
         width: 1280px;
         height: 897px;
@@ -104,6 +104,7 @@
     }
 
     .item3 {
+        display: inline-flex;
         width: 441px;
         height: 146px;
         top: 459px;
@@ -115,6 +116,7 @@
     }
 
     .item4 {
+        display: inline-flex;
         width: 441px;
         height: 146px;
         top: 459px;
@@ -126,31 +128,35 @@
     }
 
     .bord3 {
+        display: inline-flex;
         width: 80px;
         height: 80px;
         background: #FFFFFF;
         border-radius: 50%;
         box-shadow: 0 0 10px rgba(27, 148, 72, 0.5);
+        margin: 7.5% 5.3% 7.5% 7.5%;
     }
 
     .bord4 {
+        display: inline-flex;
         width: 80px;
         height: 80px;
         background: #FFFFFF;
         border-radius: 50%;
         box-shadow: 0 0 10px rgba(27, 148, 72, 0.5);
+        margin: 7.5% 5.3% 7.5% 7.5%;
     }
 
     .car {
         width: 48.89px;
         height: 36.3px;
-
+        margin: 28% 18% 27% 22% ;
     }
 
     .tea {
         width: 50.83px;
         height: 41.3px;
-
+        margin: 23% 18% 25% 18.2% ;
     }
 
     .textbox3 {
@@ -161,7 +167,7 @@
         font-weight: normal;
         font-size: 17px;
         line-height: 22px;
-        padding: 47px 8px 20px 136px;
+        margin: 10.7% 1.9% 4.6% 0;
     }
 
     .textbox4 {
@@ -172,7 +178,7 @@
         font-style: normal;
         font-weight: normal;
         line-height: 22px;
-        padding: 45px 33px 22px 136px;
+        margin: 10% 7.5% 5.3% 0;
     }
 
     .item5 {

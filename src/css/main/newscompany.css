@@ -1,37 +1,34 @@
-@media(min-width: 1280px) {
+@media(min-width: 769px) {
     .Newscompani {
-        position: absolute;
+        display: inline-flex;
         width: 503px;
         height: 58px;
         right: 796px;
-        top: 130px;
+        padding: 10.3% 31.3% 5.2% 4.3%;
         font-family: Roboto;
         font-size: 40px;
         font-style: normal;
         font-weight: 700;
         line-height: 40px;
         text-align: center;
-        padding: 0;
         color: #303030;
 
     }
 
     .boxnews {
-        position: absolute;
+        display: inline-flex;
         width: 261px;
         height: 59px;
-        top: 0px;
-        left: 484px;
-        margin: 131px 56px 64px 479px;
-        padding: 7px 0 19px 0;
+        padding: 0.55% 3% 1.5% 3%;
+        margin-right: 4.4%;
         background: #F5F5F5;
         border: 1px solid #1B9448;
         box-sizing: border-box;
+        text-align: center;
         text-decoration-color: #1B9448;
     }
 
     .linkallnews {
-        position: inherit;
         width: 261px;
         height: 33px;
         font-family: Roboto;
@@ -39,7 +36,6 @@
         font-style: normal;
         font-size: 17px;
         line-height: 40px;
-        text-align: center;
         text-decoration: none;
         color: #1B9448;
     }
@@ -51,29 +47,34 @@
     .boxnews:hover {
         background: #1B9448;
     }
+    .flex{
+        width: 100%;
+        display: inline-flex;
+    }
 
     img.coffeejpg {
-        position: absolute;
-        margin: 254px 856px 655.05px 55px;
-        float: left;
+        width: 369px;
+        height: 279px;
+        display: inline-flex;
+        margin-left: 4.2%;
     }
 
     .wwindowinfo {
-        position: absolute;
+        display: inline-flex;
         width: 801px;
         height: 279px;
         background: #FFFFFF;
-        margin: 254px 55px 655px 424px;
+
     }
 
     .articlemain {
-        position: absolute;
         width: 676px;
         height: 156px;
-        margin: 40px 62px 83px 63px;
+        margin: 5% 7.8% 8.5% 7.9%;
     }
 
     .boldertext {
+        width: 676px;
         height: 156px;
         font-family: Roboto;
         font-weight: 700;
@@ -81,24 +82,23 @@
         font-size: 25px;
         line-height: 35px;
         color: #393939;
+
     }
 
     .description {
-        position: absolute;
         width: 676px;
         height: 91px;
-        Top: 80px;
-        Left: 0;
         font-family: Roboto;
         font-weight: 400;
         font-style: normal;
         font-size: 17px;
         line-height: 30px;
         color: #000000;
+        margin-top: 1.5%;
+
     }
 
     .date1 {
-        position: absolute;
         width: 639px;
         height: 42px;
         ont-family: Roboto;
@@ -107,57 +107,57 @@
         font-size: 17px;
         line-height: 40px;
         color: #9B9B9B;
-        padding: 23px 0 0 0;
+        margin-top: 1.2%;
+    }
+    .display{
+        display: inline-flex;
     }
 
     .conteiner1 {
         display: inline-flex;
-        position: absolute;
-        width: 1170px;
+        width: 100%;
         left: 54px;
         top: 569px;
+
     }
 
-    .margin1 {
-        margin-right: 31px;
+   .margin1 {
+        margin-left: 4.25%;
+
     }
 
     .margin2 {
-        margin-right: 29px;
+        margin-left: 2.45%;
     }
 
     .margin3 {
-        margin-right: 56px;
+        margin-left: 2.3%;
     }
 
     .conteiner2 {
         display: inline-flex;
-        position: absolute;
-        left: 55px;
-        top: 846px;
+        width: 100%;
+        padding: 0;
     }
 
     .conteinerfirst {
-        position: relative;
         width: 369px;
         height: 212px;
-        margin-right: 31px;
+        margin-left: 4.25%;
         background: #FFFFFF;
     }
 
     .conteinertwo {
-        position: relative;
         width: 369px;
         height: 212px;
-        margin-right: 29px;
+        margin-left: 2.45%;
         background: #FFFFFF;
     }
 
     .conteinerthree {
-        position: relative;
         width: 369px;
         height: 212px;
-        margin-right: 56px;
+        margin-left: 2.3%;
         background: #FFFFFF;
     }
 
@@ -195,7 +195,6 @@
     }
 
     .dateinfo1 {
-        position: absolute;
         width: 219px;
         height: 63px;
         font-family: Roboto;
@@ -208,7 +207,6 @@
     }
 
     .dateinfo2 {
-        position: absolute;
         width: 219px;
         height: 63px;
         font-family: Roboto;
@@ -221,7 +219,6 @@
     }
 
     .dateinfo3 {
-        position: absolute;
         width: 219px;
         height: 63px;
         font-family: Roboto;
