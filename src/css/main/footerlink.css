@@ -1,13 +1,14 @@
 @media(min-width: 769px) {
-    .buttomstring{
+    .buttomstring {
         display: inline-flex;
         width: 100%;
         margin-top: 5.4%;
     }
+
     .buttommenu {
         width: 697px;
         height: 19px;
-       margin-top: 0;
+        margin-top: 0;
         margin-right: 16.3%;
         list-style-type: none;
     }
@@ -42,10 +43,12 @@
     .footerinshop:hover {
         text-decoration: underline;
     }
-.buttominfo{
-    width: 100%;
-    display: inline-flex;
-}
+
+    .buttominfo {
+        width: 100%;
+        display: inline-flex;
+    }
+
     .footerinfo {
         width: 533px;
         height: 79px;
@@ -69,7 +72,180 @@
         margin: 3.2% 2% 0 0;
 
     }
-    .indent{
+
+    .indent {
         margin-bottom: 2.5%;
+    }
+}
+@media (max-width: 768px) {
+    .buttomstring{
+        width: 768px;
+
+    }
+    .buttommenu {
+        width: 668px;
+        height: 19px;
+        padding: 44px 0 0 0;
+        list-style-type: none;
+        margin: 0;
+        text-align: start;
+    }
+
+    .linkfoot {
+        display: inline;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 19.92px;
+        color: #FFFFFF;
+        text-decoration: none;
+        margin-left: 15px;
+        margin-right: 5px;
+
+    }
+
+    .linkfoot:hover {
+        text-decoration: underline;
+    }
+    .linkfoot:active {
+        text-decoration: underline;
+    }
+
+    .footerinshop {
+        width: 273px;
+        height: 37px;
+        font-family: "Roboto Light";
+        font-weight: 300;
+        font-style: normal;
+        font-size: 17px;
+        line-height: 14px;
+        color: #FFFFFF;
+        text-decoration: none;
+        /*margin-left: 470px;*/
+        float: right;
+        margin-top: 58px;
+        margin-right: -18px;
+    }
+
+    .footerinshop:hover {
+        text-decoration: underline;
+    }
+    .buttominfo{
+        width: 768px;
+
+    }
+    .footerinfo {
+        width: 338px;
+        height: 121px;
+        font-family: "Roboto Light";
+        font-weight: 400;
+        font-style: normal;
+        font-size: 13px;
+        line-height: 15px;
+        color: rgba(255, 255, 255, 0.5);
+        margin-top: 59px;
+        margin-left: 31px;
+        margin-bottom: -71px;
+
+    }
+
+    .jobtime {
+        width: 108px;
+        height: 44px;
+        font-family: Roboto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 15px;
+        line-height: 17.58px;
+        color: #FFFFFF;
+        margin: 0 0 0 630px;
+    }
+
+}
+@media(max-width: 375px){
+    .buttomstring{
+        width: 375px;
+
+    }
+    .buttommenu {
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+        height: 38px;
+        padding: 44px 0 0 0;
+        list-style-type: none;
+        margin: 0;
+        text-align: center;
+    }
+
+    .linkfoot {
+        width: 222px;
+        height: 38px;
+        display: table;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 30px;
+        color: #FFFFFF;
+        text-decoration: none;
+        margin: 0 0 1px 37px;
+    }
+
+    .linkfoot:hover {
+        text-decoration: underline;
+    }
+    .linkfoot:active {
+        text-decoration: underline;
+    }
+
+    .footerinshop {
+        display: flex;
+        width: 256px;
+        height: 38px;
+        font-family: "Roboto Light";
+        font-weight: 300;
+        font-style: normal;
+        font-size: 17px;
+        line-height: 30px;
+        color: #FFFFFF;
+        text-decoration: none;
+        margin-top: 215px;
+        margin-right:  50px;
+        text-align: center;
+    }
+
+    .footerinshop:hover {
+        text-decoration: underline;
+    }
+    .buttominfo{
+        width: 375px;
+
+    }
+    .footerinfo {
+        width: 338px;
+        height: 121px;
+        font-family: "Roboto Light";
+        font-weight: 400;
+        font-style: normal;
+        font-size: 13px;
+        line-height: 15px;
+        color: rgba(255, 255, 255, 0.5);
+        text-align: center;
+        margin: 112px 23px -213px 18px;
+    }
+
+    .jobtime {
+        width: 375px;
+        height: 83px;
+        font-family: Roboto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 15px;
+        line-height: 28px;
+        color: #FFFFFF;
+        margin: 20px 0 9px 0;
+        text-align: center;
     }
 }

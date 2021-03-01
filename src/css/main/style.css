@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
-@media(min-width: 769px) {
-
-
+@media (min-width: 769px) {
     body {
         position: relative;
         width: 1280px;
@@ -23,18 +20,60 @@
         background: #F5F5F5;
     }
 }
-@media (max-width: 768px) {
+    @media (max-width: 768px) {
+        body {
+            position: relative;
+            width: 768px;
+            margin: 0;
+            padding: 20px 0 0 0;
+        }
+        body.lock{
+            overflow: hidden;
+        }
+        .midle {
+            width: 768px;
+            height: 1301px;
+            background: rgba(106, 182, 107, 0.5);
+        }
+        .end {
+            width: 768px;
+            height: 907px;
+            background: #F5F5F5;
+        }
+
+        footer {
+            width: 768px;
+            height: 280px;
+            background: #6AB66B;
+        }
+    }
+@media (max-width: 375px) {
     body{
         position: relative;
-        width: 100%;
-        margin: 0 auto;
-        padding: 0;
-        background: #E5E5E5;
+        width: 375px;
+        margin: 0;
+        padding: 94px 0 0 0;
     }
-    .end{
-        width: 768px;
-        height: 907px;
+    body.lock{
+        overflow: hidden;
+    }
+    .midle {
+        width: 375px;
+        height: 2054px;
+        background: rgba(106, 182, 107, 0.5);
+    }
+
+    .end {
+        width: 375px;
+        height: 2134px;
         background: #F5F5F5;
     }
-}
 
+    footer {
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+        height: 584px;
+        background: #6AB66B;
+    }
+}

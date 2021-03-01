@@ -1,0 +1,48 @@
+
+.headconteinerinfo{
+    width: 1280px;
+    height: 944px;
+    background: #F5F5F5;
+    margin: 0;
+}
+.aboutlogo1-1{
+    width: 310px;
+    height: 310px;
+    margin: -63px 89px 0 55px;
+}
+.infoaboutcompany{
+    display: inline-flex;
+    width: 1280px;
+    height: 750px;
+}
+h1{
+    width: 1280px;
+    height: 68px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-style:normal;
+    font-size: 35px;
+    line-height: 36px;
+    color: #000000;
+    margin: 0;
+    padding: 126px 0 0 455px;
+}
+.abouttextinfo{
+    align-content: end;
+    display: flex;
+    flex-direction: column;
+    width: 735px;
+    height: 713px;
+    font-family: Roboto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 30px;
+    margin-top: 37px;
+}
+span{
+    margin-bottom: 20px;
+}
+@media(max-width: 768px){
+
+}

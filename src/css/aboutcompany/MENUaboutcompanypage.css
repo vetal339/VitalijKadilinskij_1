@@ -1,0 +1,181 @@
+@media(min-width: 769px){
+.head{
+    width: 1280px;
+    height: 198px;
+    background: #6AB66B;
+}
+.logo1{
+    position: inherit;
+    margin: 33px 570px 0 570px;
+}
+.headposmenu{
+    display: flex;
+    width: 1280px;
+    height: 70px;
+    margin-top: -70px;
+}
+.headmenu{
+    width: 805px;
+    height: 19px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 23.48px;
+    display: inline-flex;
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 83px;
+    margin-bottom: 33px;
+}
+.headlinkmenu a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.headlinkmenu{
+    margin-right: 61px;
+}
+.ellips{
+    position: relative;
+    width: 6px;
+    height: 6px;
+    margin-left: 20px;
+    top: 10px;
+    left: -30px;
+}
+.headimgshop{
+    width: 17.32px;
+    height: 18.54px;
+    margin-top: 20px;
+    margin-left: 25.41px;
+}
+.headintershop a{
+    width: 197px;
+    height: 46px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+.headintershop{
+    width: 197px;
+    height: 46px;
+    margin-left: 11.27px;
+    margin-top: 23px;
+    margin-bottom: 1px;
+
+}
+.RU{
+    width: 43px;
+    height: 33px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 23.44px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 39px;
+}
+.vector{
+    width: 10px;
+    height: 5px;
+    margin-top: 30px;
+    margin-left: -5px;
+}
+}
+
+@media(max-width: 768px){
+    .head{
+        position: sticky;
+        top: 0;
+        display: inline-flex;
+        width: 768px;
+        height: 70px;
+        background: #6AB66B;
+    }
+    .logo1{
+        display: inline-flex;
+        width: 70px;
+        height: 35px;
+        margin: 17px 0 18px 90px;
+    }
+    .headposmenu{
+        display: flex;
+        width: 30px;
+        height: 18px;
+    }
+   /* .headmenu{
+        width: 805px;
+        height: 19px;
+        font-family: Roboto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 23.48px;
+        display: inline-flex;
+        list-style-type: none;
+        padding-left: 0;
+        margin-left: 83px;
+        margin-bottom: 33px;
+    }  MENU IPAD
+    .headlinkmenu a{
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    .headlinkmenu{
+        margin-right: 61px;
+    }*/
+    .ellips{
+        display: none;
+        position: relative;
+        width: 6px;
+        height: 6px;
+        margin-left: 20px;
+        top: 10px;
+        left: -30px;
+    }
+    .headimgshop{
+        width: 17.32px;
+        height: 18.54px;
+
+    }
+    .headintershop a{
+        width: 197px;
+        height: 46px;
+        font-family: Roboto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 14px;
+        color: #FFFFFF;
+    }
+    .headintershop{
+        width: 197px;
+        height: 46px;
+        margin-left: 11.27px;
+        margin-top: 23px;
+        margin-bottom: 1px;
+
+    }
+    .RU{
+        width: 43px;
+        height: 33px;
+        font-family: Roboto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 23.44px;
+        color: #FFFFFF;
+        margin-top: 20px;
+        margin-left: 39px;
+    }
+    .vector{
+        width: 10px;
+        height: 5px;
+        margin-top: 30px;
+        margin-left: -5px;
+    }
+}

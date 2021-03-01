@@ -1,3 +1,6 @@
+@media(min-width: 769px) {
+
+
 body{
     position: relative;
     width: 1280px;
@@ -6,17 +9,18 @@ body{
     background: #E5E5E5;
 }
 .head{
-    position: absolute;
     width: 1280px;
     height: 198px;
     background: #6AB66B;
 }
-.logo1{
-    position: inherit;
-    margin: 33px 570px 95px 570px;
 }
-.menu{
-    position: absolute;
-    width: 1280px;
-    height: 70px;
+
+@media(max-width: 768px){
+    body{
+        position: relative;
+        width: 768px;
+        margin: 0 auto;
+        background: #E5E5E5;
+    }
+
 }
