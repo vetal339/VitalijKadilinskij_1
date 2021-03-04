@@ -8,11 +8,7 @@ body{
     margin: 0 auto;
     background: #E5E5E5;
 }
-.head{
-    width: 1280px;
-    height: 198px;
-    background: #6AB66B;
-}
+
 }
 
 @media(max-width: 768px){
@@ -23,4 +19,12 @@ body{
         background: #E5E5E5;
     }
 
+}
+@media (max-width: 375px) {
+    body{
+        position: relative;
+        width: 375px;
+        margin: 0 auto;
+        background: #F5F5F5;
+    }
 }

@@ -1,0 +1,253 @@
+@media(min-width: 769px) {  
+    .partnership{
+        width: 1280px;
+        height: 845px;
+        background: rgba(106, 182, 107, 0.1);
+        margin: 0;
+    }
+    h2{
+        width: 525px;
+        height: 40px;
+        text-align: center;
+        margin: 0;
+        padding: 130px 0 0 378px;
+        font-family: Roboto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 35px;
+        line-height: 26px;
+    }
+    .mainbox{
+        display: flex;
+        width: 100%;
+    }
+    .box1{
+        height: 480px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 55px;
+        margin-top: 65px;
+    }
+    img.chek{
+        width: 52px;
+        height: 52px;
+        margin-bottom: 51px;
+    }
+    .chek+.chek+.chek+.chek+.chek{
+        margin-top: 16px;
+    }
+    .box2{
+        display: flex;
+        flex-direction: column;
+        margin-left: 48px;
+        font-family: Roboto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .p1{
+        width: 634px;
+        height: 79px;
+        margin: 75px 0 0 0;
+    }
+    .p2{
+        width: 570px;
+        height: 79px;
+        margin: 12px 0 0 0;
+    }
+    .p3{
+        width: 570px;
+        height: 79px;
+        margin: 24px 0 0 0;
+    }
+    .p4{
+        width: 561px;
+        height: 103px;
+        margin: 21px 0 0 0;
+    }
+    .p5{
+        width: 570px;
+        height: 79px;
+        margin: 29px 0 0 0;
+    }
+    .box3{
+        width: 317px;
+        height: 317px;
+        margin-top: 166px;
+        margin-left: 66px;
+    }
+}
+@media (max-width: 768px) {
+    .partnership{
+        width: 768px;
+        height: 1018px;
+        background: #E7EFE7;
+        margin: 0;
+    }
+    h2{
+        width: 768px;
+        height: 68px;
+        text-align: center;
+        margin: 0 0 19px 0;
+        padding: 91px 0 0 0;
+        font-family: Roboto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 25px;
+        line-height: 36px;
+    }
+    .mainbox{
+        display: flex;
+    }
+    .box1{
+        height: 384px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-left: -512px;
+        margin-top: 356px;
+    }
+    .chek{
+        width: 52px;
+        height: 52px;
+    }
+
+    .box2{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        margin-top: 366px;
+        font-family: Roboto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .p1{
+        width: 577px;
+        height: 79px;
+        margin: 0 0 0 0;
+    }
+    .p2{
+        width: 636px;
+        height: 79px;
+        margin: 0 0 0 0;
+    }
+    .p3{
+        width: 636px;
+        height: 79px;
+        margin: 0 0 0 0;
+    }
+    .p4{
+        width: 636px;
+        height: 103px;
+        margin: 0 0 0 0;
+    }
+    .p5{
+        width: 577px;
+        height: 42px;
+        margin: 0 0 0 0;
+    }
+    .box3 {
+        order: -1;
+        width: 317px;
+        height: 317px;
+        margin-left: 225px;
+    }
+}
+@media (max-width: 375px) {
+    .partnership{
+        width: 375px;
+        height: 908px;
+        background: #E7EFE7;
+        margin: 0;
+    }
+    h2{
+        width: 375px;
+        height: 68px;
+        text-align: center;
+        margin: 0;
+        padding: 91px 0 0 0;
+        font-family: Roboto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 22px;
+        line-height: 36px;
+    }
+    .mainbox{
+        display: flex;
+    }
+    .box1{
+        height: 383px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin-top: 266px;
+        margin-left: -286px;
+    }
+    img.chek{
+        width: 36px;
+        height: 36px;
+    }
+    .chek+.chek+.chek+.chek{
+        margin-bottom: 73px;
+    }
+    .chek+.chek+.chek{
+        margin-bottom: 50px;
+    }
+    .chek+.chek{
+        margin-bottom: 50px;
+    }
+    .chek{
+        margin-bottom: 30px;
+    }
+
+    .box2{
+        display: flex;
+        flex-direction: column;
+        margin-left: 23px;
+        margin-top: 262px;
+        font-family: Roboto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 17px;
+        line-height: 22px;
+    }
+    .p1{
+        width: 286px;
+        height: 40px;
+        margin: 0 0 26px 0;
+    }
+    .p2{
+        width: 286px;
+        height: 59px;
+        margin: 0 0 27px 0;
+    }
+    .p3{
+        width: 286px;
+        height: 59px;
+        margin: 0 0 27px 0;
+    }
+    .p4{
+        width: 286px;
+        height: 85px;
+        margin: 0 0 24px 0;
+    }
+    .p5{
+        width: 286px;
+        height: 85px;
+        margin: 0 0 55px 0;
+    }
+    .box3 {
+        order: -1;
+        width: 226px;
+        height: 226px;
+        margin-left: 75px;
+        margin-right: 0;
+    }
+    .img226{
+        width: 226px;
+        height: 226px;
+    }
+}
