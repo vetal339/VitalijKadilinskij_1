@@ -1,0 +1,150 @@
+@media(min-width: 769px) {
+    .header_pos{
+        display: inline-flex;
+        width: 1280px;
+        height: 74px;
+        background: #6AB66B;
+   }
+    .headmenu{
+        display: inline-flex;
+    }
+    .headlogo{
+        width: 86px;
+        height: 43px;
+        margin: 15px 0 16px 50px;
+    }
+    .nav{
+        width: 743px;
+        height: 19px;
+        display: inline-flex;
+        list-style-type: none;
+        padding-left: 0;
+        margin: 24px 212px 31px 83px;
+    }
+    .link a{
+        font-family: Raleway;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 23.44px;
+        color: #FFFFFF;
+        text-decoration: none;
+        margin-right: 50px;
+    }
+    .ellips{
+        width: 6px;
+        height: 6px;
+        margin: 10px 0 3px 0;
+        padding-right: 10px;
+    }
+    .RU{
+        width: 43px;
+        height: 33px;
+        font-family: Raleway;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 23.48px;
+        color: #FFFFFF;
+        margin: 24px 0 17px 0;
+    }
+    .vector{
+        width: 10px;
+        height: 5px;
+        margin-top: 33px;
+        margin-left: -5px;
+    }
+    button{
+        display: none;
+    }
+
+}
+@media(max-width: 768px){
+    .header_pos{
+        display: flex;
+        position: sticky;
+        top: 0;
+        width: 768px;
+        height: 70px;
+        background: #6AB66B;
+    }
+    .headmenu{
+        display: flex;
+    }
+    .headlogo{
+        width: 70px;
+        height: 35px;
+        margin: 17px 0 18px 90px;
+    }
+    .nav{
+        width: 80%;
+        height: 700px;
+        position: absolute;
+        display: block;
+        margin-top: 70px;
+        left: -100%;
+        background: rgba(106, 182, 107, 0.9);
+        transition: left 0.5s;
+        list-style-type: none;
+        padding-left: 0;
+    }
+    .header_humburger{
+        display: block;
+        cursor: pointer;
+        width: 30px;
+        height: 18px;
+        margin-left: 30px;
+        margin-top: 26px;
+        padding: 0;
+        background: transparent;
+        border: transparent;
+    }
+    button span{
+        display: block;
+        width: 30px;
+        height: 2px;
+        background: #FFFFFF;
+        position: relative;
+        margin: 0;
+    }
+    span + span{
+        margin-top: 6px;
+    }
+    .active .nav {
+        left: 0;
+    }
+    .link a{
+        font-family: Raleway;
+        font-weight: 900;
+        font-style: normal;
+        text-align: center;
+        line-height: 40px;
+        font-size: 25px;
+        color: #FFFFFF;
+        text-decoration: none;
+        margin-right: 50px;
+    }
+    li{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .ellips{
+        display: none;
+    }
+    .RU{
+        width: 35px;
+        height: 33px;
+        font-family: Raleway;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 23.48px;
+        color: #FFFFFF;
+    }
+    .vector{
+        width: 10px;
+        height: 5px;
+        margin-top: 33px;
+        margin-left: -5px;
+    }
+}

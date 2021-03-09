@@ -599,6 +599,9 @@
     .imgbranch{
         display: none;
     }
+    .imgbranchmobile{
+        display: none;
+    }
 }
 @media(max-width: 768px){
     .bottomhistory{
@@ -830,7 +833,7 @@
         height: 62px;
         margin-left: 3px;
         margin-right: 5px;
-        margin-bottom: 164px;
+        margin-bottom: 144px;
 
     }
 
@@ -839,7 +842,7 @@
         height: 59px;
         margin-left: 14px;
         margin-right: 17px;
-        margin-bottom: 131px;
+        margin-bottom: 111px;
 
     }
 
@@ -848,7 +851,7 @@
         height: 43.32px;
         margin-left: 14px;
         margin-right: 14.73px;
-        margin-bottom: 100px;
+        margin-bottom: 90px;
 
     }
 
@@ -857,7 +860,7 @@
         height: 83px;
         margin-left: 14px;
         margin-right: 15px;
-        margin-bottom: 168.92px;
+        margin-bottom: 145.92px;
 
     }
 
@@ -879,7 +882,7 @@
     .image7{
         width: 93px;
         height: 93px;
-        margin: 84.3px 17px 117px 14px;
+        margin: 74.3px 17px 47px 14px;
 
     }
 
@@ -897,7 +900,7 @@
         height: 77.92px;
         margin-left: 123px;
         margin-right: 17px;
-        margin-bottom: 99px;
+        margin-bottom: 95px;
 
     }
 
@@ -905,7 +908,7 @@
         width: 93px;
         height: 25.76px;
         margin-left: 14px;
-        margin-bottom: 132.24px;
+        margin-bottom: 110px;
 
     }
 
@@ -914,7 +917,7 @@
         height: 93px;
         margin-left: 13px;
         margin-right: 17px;
-        margin-bottom: 128px;
+        margin-bottom: 88px;
 
     }
 
@@ -938,7 +941,7 @@
     .image14{
         width: 93px;
         height: 42.1px;
-        margin: 127.93px 0 127.9px 14px;
+        margin: 110px 0 110px 14px;
 
     }
 
@@ -947,7 +950,7 @@
         height: 37px;
         margin-left: 11px;
         margin-right: 17px;
-        margin-bottom: 133.05px;
+        margin-bottom: 120px;
 
     }
 
@@ -956,7 +959,7 @@
         height: 36.45px;
         margin-left: 14px;
         margin-right: 17px;
-        margin-bottom: 130.55px;
+        margin-bottom: 110px;
 
     }
 
@@ -965,7 +968,7 @@
         height: 83.57px;
         margin-left: 14px;
         margin-right: 17px;
-        margin-bottom: 131.43px;
+        margin-bottom: 115px;
 
     }
 
@@ -974,7 +977,7 @@
         height: 49.11px;
         margin-left: 14px;
         margin-right: 17px;
-        margin-bottom: 134.89px;
+        margin-bottom: 110px;
 
     }
 
@@ -983,7 +986,7 @@
         height: 184.46px;
         margin-left: 35px;
         margin-right: 23px;
-        margin-bottom: 167.54px;
+        margin-bottom: 135px;
 
     }
 
@@ -992,7 +995,7 @@
         height: 75.41px;
         margin-left: 14px;
         margin-right: 17px;
-        margin-bottom: 93.59px;
+        margin-bottom: 85px;
 
     }
 
@@ -1001,7 +1004,7 @@
         height: 47px;
         margin-left: 0;
         margin-right: 0;
-        margin-bottom: 107px;
+        margin-bottom: 60px;
     }
 
     .image22{
@@ -1018,7 +1021,7 @@
         height: 55.93px;
         margin-left: 123px;
         margin-right: 17px;
-        margin-bottom: 134.07px;
+        margin-bottom: 115px;
 
     }
 
@@ -1032,12 +1035,12 @@
 
 
     .descriptionhistory{
+        width: 462px;
         font-family: Roboto;
         font-weight: 300;
         font-style: normal;
         font-size: 20px;
-        line-height: 26px;
-        margin: 76px 0 0 35px;
+        margin: 135px 0 0 -215px;
 
     }
 
@@ -1047,164 +1050,807 @@
     }
 
     .texthistory1{
-        width: 473px;
-        height: 68px;
-        margin-bottom: 142px;
+        width: 462px;
+        height: 87px;
+        margin-top: 79px;
+        margin-bottom: 114px;
         margin-right: 52px;
         font-weight: 400;
+        line-height: 32px;
 
     }
 
     .texthistory2{
-        width: 399px;
-        height: 86px;
-        margin-bottom: 110px;
+        width: 462px;
+        height: 56px;
+        line-height: 32px;
+        margin-bottom: 100px;
         margin-right: 126px;
 
     }
 
     .texthistory3{
-        width: 273px;
+        width: 289px;
         height: 25px;
         margin-bottom: 140px;
-        line-height: 22px;
+        line-height: 28px;
         margin-right: 252px;
 
     }
 
     .texthistory4{
-        width: 442px;
+        width: 462px;
         height: 86px;
-        margin-bottom: 214px;
+        line-height: 32px;
+        margin-bottom: 140px;
         margin-right: 83px;
 
     }
 
     .texthistory5{
-        width: 459px;
-        height: 86px;
-        margin-bottom: 146px;
+        width: 398px;
+        height: 24px;
+        line-height: 28px;
+        margin-bottom: 130px;
         margin-right: 66px;
 
     }
 
     .texthistory6{
-        width: 273px;
-        height: 46px;
-        margin-bottom: 205px;
+        width: 339px;
+        height: 20px;
+        line-height: 28px;
+        margin-bottom: 145px;
         margin-right: 252px;
 
     }
 
     .texthistory7{
-        width: 296px;
+        width: 462px;
         height: 43px;
-        margin-bottom: 188px;
+        line-height: 28px;
+        margin-bottom: 85px;
         margin-right: 229px;
 
     }
 
     .texthistory8{
-        width: 400px;
-        height: 86px;
-        margin-bottom: 122px;
+        width: 462px;
+        height: 50px;
+        line-height: 32px;
+        margin-bottom: 150px;
         margin-right: 125px;
 
     }
 
     .texthistory9{
-        width: 400px;
-        height: 78px;
-        margin-bottom: 198px;
+        width: 462px;
+        height: 48px;
+        line-height: 28px;
+        margin-bottom: 125px;
         margin-right: 125px;
 
     }
 
     .texthistory10{
-        width: 370px;
+        width: 462px;
         height: 86px;
-        margin-bottom: 162px;
+        line-height: 32px;
+        margin-bottom: 80px;
         margin-right: 155px;
 
     }
 
     .texthistory11{
-        width: 400px;
+        width: 462px;
         height: 45px;
-        margin-bottom: 108px;
+        line-height: 32px;
+        margin-bottom: 100px;
         margin-right: 125px;
 
     }
 
     .texthistory12{
-        width: 400px;
+        width: 462px;
         height: 86px;
+        line-height: 32px;
         margin-bottom: 80px;
         margin-right: 125px;
 
     }
 
     .texthistory13{
-        width: 400px;
-        height: 86px;
-        margin-bottom: 108px;
+        width: 462px;
+        height: 55px;
+        line-height: 32px;
+        margin-bottom: 130px;
         margin-right: 125px;
 
     }
 
     .texthistory14{
-        width: 400px;
-        height: 86px;
-        margin-bottom: 119px;
+        width: 462px;
+        height: 57px;
+        line-height: 32px;
+        margin-bottom: 125px;
         margin-right: 125px;
 
     }
 
     .texthistory15{
-        width: 400px;
+        width: 461px;
         height: 86px;
-        margin-bottom: 146px;
+        line-height: 32px;
+        margin-bottom: 210px;
         margin-right: 125px;
 
     }
 
     .texthistory16{
-        width: 400px;
-        height: 85px;
-        margin-bottom: 235px;
+        width: 462px;
+        height: 184px;
+        line-height: 32px;
+        margin-bottom: 30px;
         margin-right: 125px;
 
     }
 
     .texthistory17{
-        width: 470px;
+        width: 337px;
         height: 35px;
-        margin-bottom: 147px;
+        line-height: 28px;
+        margin-bottom: 100px;
         margin-right: 55px;
 
     }
 
     .texthistory18{
-        width: 456px;
-        height: 39px;
+        width: 461px;
+        height: 22px;
+        line-height: 32px;
         margin-bottom: 123px;
         margin-right: 69px;
 
     }
 
     .texthistory19{
-        width: 456px;
+        width: 461px;
         height: 72px;
-        margin-bottom: 170px;
+        line-height: 32px;
+        margin-bottom: 110px;
         margin-right: 69px;
 
     }
 
     .texthistory20{
-        width: 400px;
-        height: 85px;
+        width: 405px;
+        height: 23px;
+        line-height: 32px;
         margin-bottom: 119px;
         margin-right: 125px;
 
     }
+    .imgbranchmobile{
+        position: absolute;
+        width: 0;
+        height: 0;
+        left: -100%;
+    }
+}
+@media(max-width: 375px){
+    .bottomhistory{
+        width: 375px;
+        height: 4061px;
+        background: #F5F5F5;
+    }
+
+    .history{
+        width: 375px;
+        height: 68px;
+        font-family: Roboto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 22px;
+        line-height: 26px;
+        text-align: center;
+        padding-top: 90px;
+        margin-bottom: 0;
+
+    }
+
+    .mainboxofbottom{
+        display: inline-flex;
+        width: 100%;
+        margin: 0;
+
+    }
+
+    .number{
+        display: flex;
+        flex-direction: column;
+        width: 49px;
+        height: 3909px;
+        margin-top: 29px;
+        margin-bottom: 0;
+        margin-left: 16px;
+
+    }
+
+    .number{
+        font-family: Roboto;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 26px;
+        color: #1B9448;
+    }
+
+    .n1{
+        width: 49px;
+        height: 21px;
+        margin-bottom: 230px;
+        margin-top: 0;
+
+    }
+
+    .n2{
+        width: 49px;
+        height: 21px;
+        margin-bottom: 148px;
+        margin-top: 0;
+    }
+
+    .n3{
+        width: 49px;
+        height: 21px;
+        margin-bottom: 133px;
+        margin-top: 0;
+
+    }
+
+    .n4{
+        width: 49px;
+        height: 21px;
+        margin-bottom: 233px;
+        margin-top: 0;
+
+    }
+
+    .n5{
+        width: 49px;
+        height: 21px;
+        margin-bottom: 140px;
+        margin-top: 0;
+
+    }
+
+    .n6{
+        width: 49px;
+        height: 21px;
+        margin-bottom: 175px;
+        margin-top: 0;
+
+    }
+
+    .n7{
+        width: 49px;
+        height: 21px;
+        margin-bottom: 123px;
+        margin-top: 0;
+
+    }
+
+    .n8{
+        width: 49px;
+        height: 21px;
+        margin-bottom: 189px;
+        margin-top: 0;
+
+    }
+
+    .n9{
+        width: 49px;
+        height: 21px;
+        margin-bottom: 207px;
+        margin-top: 0;
+
+    }
+
+    .n10{
+        width: 49px;
+        height: 21px;
+        margin-bottom: 153px;
+        margin-top: 0;
+
+    }
+
+    .n11{
+        width: 49px;
+        height: 21px;
+        margin-bottom: 143px;
+        margin-top: 0;
+
+    }
+
+    .n12{
+        width: 49px;
+        height: 21px;
+        margin-bottom: 172px;
+        margin-top: 0;
+
+    }
+
+    .n13{
+        width: 49px;
+        height: 21px;
+        margin-bottom: 165px;
+        margin-top: 0;
+
+    }
+
+    .n14{
+        width: 49px;
+        height: 21px;
+        margin-bottom: 174px;
+        margin-top: 0;
+
+    }
+
+    .n15{
+        width: 49px;
+        height: 21px;
+        margin-bottom: 220px;
+        margin-top: 0;
+
+    }
+
+    .n16{
+        width: 49px;
+        height: 21px;
+        margin-bottom: 297px;
+        margin-top: 0;
+
+    }
+
+    .n17{
+        width: 49px;
+        height: 21px;
+        margin-bottom: 145px;
+        margin-top: 0;
+
+    }
+
+    .n18{
+        width: 49px;
+        height: 21px;
+        margin-bottom: 125px;
+        margin-top: 0;
+
+    }
+
+    .n19{
+        width: 49px;
+        height: 21px;
+        margin-bottom: 166px;
+        margin-top: 0;
+
+    }
+
+    .n20{
+        width: 49px;
+        height: 21px;
+        margin-top: 0;
+
+    }
+    .imgbranchmobile{
+        position: absolute;
+        left: 74px;
+        width: 25px;
+        height: 4061px;
+        margin-left: 9px;
+        margin-top: -41px;
+    }
+
+    .imgbranch {
+        display: none;
+    }
+    .branch{
+        display: none;
+    }
+
+    .images{
+        width: 220px;
+        height: 3955.33px;
+        margin-top: 7px;
+        margin-left: 68px;
+        margin-bottom: 197px;
+
+    }
+
+    .image1{
+        width: 123px;
+        height: 62px;
+        margin-left: 3px;
+        margin-right: 5px;
+        margin-bottom: 185px;
+
+    }
+
+    .image2{
+        width: 91px;
+        height: 58px;
+        margin-left: 14px;
+        margin-right: 17px;
+        margin-bottom: 115px;
+
+    }
+
+    .image3{
+        width: 93px;
+        height: 43.32px;
+        margin-left: 14px;
+        margin-right: 14.73px;
+        margin-bottom: 90px;
+
+    }
+
+    .image4{
+        width: 93px;
+        height: 83px;
+        margin-left: 14px;
+        margin-right: 15px;
+        margin-bottom: 165.92px;
+
+    }
+
+    .image5{
+        width: 93px;
+        height: 64.7px;
+        margin-left: 14px;
+        margin-bottom: -48px;
+
+    }
+
+    .image6{
+        width: 93px;
+        height: 34.49px;
+        margin-left: 123px;
+
+    }
+
+    .image7{
+        width: 93px;
+        height: 93px;
+        margin: 98.3px 17px 75px 14px;
+
+    }
+
+    .image8{
+        width: 93px;
+        height: 37.07px;
+        margin-left: 14px;
+        margin-right: 17px;
+        margin-bottom: -75px;
+
+    }
+
+    .image9{
+        width: 93px;
+        height: 77.92px;
+        margin-left: 123px;
+        margin-right: 17px;
+        margin-bottom: 98px;
+
+    }
+
+    .image10{
+        width: 93px;
+        height: 25.76px;
+        margin-left: 14px;
+        margin-bottom: 140px;
+
+    }
+
+    .image11{
+        width: 93px;
+        height: 93px;
+        margin-left: 13px;
+        margin-right: 17px;
+        margin-bottom: 130px;
+
+    }
+
+    .image12{
+        width: 93px;
+        height: 51.53px;
+        margin-left: 14px;
+        margin-right: 17px;
+        margin-bottom: -59px;
+
+    }
+
+    .image13{
+        width: 93px;
+        height: 59.07px;
+        margin-left: 124px;
+        margin-right: 17px;
+
+    }
+
+    .image14{
+        width: 93px;
+        height: 42.1px;
+        margin: 120px 0 120px 14px;
+
+    }
+
+    .image15{
+        width: 93px;
+        height: 37px;
+        margin-left: 11px;
+        margin-right: 17px;
+        margin-bottom: 145px;
+
+    }
+
+    .image16{
+        width: 93px;
+        height: 36.45px;
+        margin-left: 14px;
+        margin-right: 17px;
+        margin-bottom: 130px;
+
+    }
+
+    .image17{
+        width: 93px;
+        height: 83.57px;
+        margin-left: 14px;
+        margin-right: 17px;
+        margin-bottom: 120px;
+
+    }
+
+    .image18{
+        width: 92px;
+        height: 49.11px;
+        margin-left: 14px;
+        margin-right: 17px;
+        margin-bottom: 120px;
+
+    }
+
+    .image19{
+        width: 93px;
+        height: 184.46px;
+        margin-left: 35px;
+        margin-right: 23px;
+        margin-bottom: 185px;
+
+    }
+
+    .image20{
+        width: 93px;
+        height: 75.41px;
+        margin-left: 14px;
+        margin-right: 17px;
+        margin-bottom: 100px;
+
+    }
+
+    .image21{
+        width: 111px;
+        height: 47px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 75px;
+    }
+
+    .image22{
+        width: 93px;
+        height: 17.59px;
+        margin-left: 14px;
+        margin-right: 17px;
+        margin-bottom: -38px;
+
+    }
+
+    .image23{
+        width: 93px;
+        height: 55.93px;
+        margin-left: 123px;
+        margin-right: 17px;
+        margin-bottom: 115px;
+
+    }
+
+    .image24{
+        width: 92px;
+        height: 61.33px;
+        margin-left: 16px;
+        margin-right: 13px;
+        margin-bottom: 62px;
+    }
+
+
+    .descriptionhistory{
+        width: 228px;
+        font-family: Roboto;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 17px;
+        line-height: 22px;
+        margin: 69px 0 0 -215px;
+
+    }
+
+    .descriptionhistory p{
+        margin-top: 0;
+
+    }
+
+    .texthistory1{
+        width: 227px;
+        height: 128px;
+        margin-bottom: 114px;
+        margin-right: 52px;
+        padding-top: 20px;
+        font-weight: 400;
+        line-height: 22px;
+
+    }
+
+    .texthistory2{
+        width: 227px;
+        height: 128px;
+        margin-bottom: 40px;
+        margin-right: 126px;
+        line-height: 22px;
+
+    }
+
+    .texthistory3{
+        width: 227px;
+        height: 25px;
+        margin-bottom: 155px;
+        margin-right: 252px;
+        line-height: 22px;
+    }
+
+    .texthistory4{
+        width: 227px;
+        height: 86px;
+        margin-bottom: 150px;
+        margin-right: 83px;
+        line-height: 22px;
+    }
+
+    .texthistory5{
+        width: 227px;
+        height: 24px;
+        margin-bottom: 140px;
+        margin-right: 66px;
+        line-height: 22px;
+    }
+
+    .texthistory6{
+        width: 227px;
+        height: 20px;
+        line-height: 28px;
+        margin-bottom: 170px;
+        margin-right: 252px;
+
+    }
+
+    .texthistory7{
+        width: 226px;
+        height: 43px;
+        margin-bottom: 95px;
+        margin-right: 229px;
+        line-height: 22px;
+    }
+
+    .texthistory8{
+        width: 226px;
+        height: 50px;
+        margin-bottom: 185px;
+        margin-right: 125px;
+        line-height: 22px;
+    }
+
+    .texthistory9{
+        width: 227px;
+        height: 48px;
+        margin-bottom: 165px;
+        margin-right: 125px;
+        line-height: 22px;
+    }
+
+    .texthistory10{
+        width: 227px;
+        height: 120px;
+        margin-bottom: 45px;
+        margin-right: 155px;
+        line-height: 22px;
+    }
+
+    .texthistory11{
+        width: 227px;
+        height: 59px;
+        margin-bottom: 105px;
+        margin-right: 125px;
+        line-height: 22px;
+    }
+
+    .texthistory12{
+        width: 225px;
+        height: 86px;
+        margin-bottom: 100px;
+        margin-right: 125px;
+        line-height: 22px;
+    }
+
+    .texthistory13{
+        width: 227px;
+        height: 96px;
+        margin-bottom: 130px;
+        margin-right: 125px;
+        line-height: 22px;
+    }
+
+    .texthistory14{
+        width: 227px;
+        height: 57px;
+        margin-bottom: 110px;
+        margin-right: 125px;
+        line-height: 22px;
+    }
+
+    .texthistory15{
+        width: 227px;
+        height: 86px;
+        margin-bottom: 225px;
+        margin-right: 125px;
+        line-height: 22px;
+    }
+
+    .texthistory16{
+        width: 225px;
+        height: 184px;
+        margin-bottom: 80px;
+        margin-right: 125px;
+        line-height: 22px;
+    }
+
+    .texthistory17{
+        width: 227px;
+        height: 35px;
+        margin-bottom: 105px;
+        line-height: 22px;
+    }
+
+    .texthistory18{
+        width: 228px;
+        height: 22px;
+        margin-bottom: 145px;
+        margin-right: 69px;
+        line-height: 22px;
+    }
+
+    .texthistory19{
+        width: 226px;
+        height: 72px;
+        margin-bottom: 95px;
+        margin-right: 69px;
+        line-height: 22px;
+    }
+
+    .texthistory20{
+        width: 226px;
+        height: 23px;
+        margin-bottom: 119px;
+        margin-right: 125px;
+        line-height: 22px;
+    }
+
 }

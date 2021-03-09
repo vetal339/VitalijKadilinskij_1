@@ -1,0 +1,16 @@
+@media(min-width: 769px) {
+    body {
+        width: 1280px;
+        height: 1434px;
+        background: #E5E5E5;
+        margin: 0 auto;
+    }
+}
+@media(max-width: 768px) {
+    body{
+        width: 768px;
+        height: 1954px;
+        background: #E5E5E5;
+        margin: 0 auto;
+    }
+}
