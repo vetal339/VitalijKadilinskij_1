@@ -1,0 +1,118 @@
+.windowvisible{
+    display: none;
+    position: absolute;
+    width: 770px;
+    height: 507px;
+    top: 0;
+    margin-top: 322px;
+    margin-left: 298px;
+    background: #FFFFFF;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4) ;
+}
+.windowimg{
+    display: flex;
+    width: 240px;
+    height: 256px;
+    margin-left: 76px;
+    margin-top: 62px;
+}
+.windowoptions{
+    display: flex;
+    flex-direction: column;
+}
+.header_window{
+    width: 301px;
+    height: 57px;
+    font-family: Raleway;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 32px;
+    color: black;
+    margin: 60px 57px 0 63px;
+}
+.window_weight_text{
+    width: 211px;
+    height: 34px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 32px;
+    color: #989898;
+    margin: -11px 147px 0 63px;
+}
+.window_weight_text span{
+    color: black;
+    font-weight: 500;
+}
+.windowtype {
+    width: 127px;
+    height: 34px;
+    background: #EBECEC;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 32px;
+    margin: 13px 0 0 63px;
+}
+.windowvariety {
+    width: 121px;
+    height: 34px;
+    background: #EBECEC;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 32px;
+    margin: -34px 0 0 202px;
+}
+.windowfeatures {
+    width: 219px;
+    height: 34px;
+    background: #EBECEC;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 32px;
+    margin: 9px 0 0 63px;
+}
+.packinginfo{
+    width: 308px;
+    height: 92px;
+    margin: 19px 0 0 63px;
+    font-family: Raleway;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 17px;
+    line-height: 28px;
+}
+.compositioninfo{
+    width: 300px;
+    height: 75px;
+    font-family: Raleway;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 28px;
+    color: #989898;
+    margin: 31px 58px 0 63px;
+}
+.closewindow{
+    width: 14px;
+    height: 13px;
+    margin: 18px 0 0 0;
+}
+.more_6:hover .windowvisible{
+    display: flex;
+}
+
+
