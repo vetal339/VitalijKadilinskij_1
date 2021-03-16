@@ -1,5 +1,3 @@
-const win=document.querySelector('.more_6');
-const kjkj=document.querySelector('.windowvisible');
-win.addEventListener('click',function (){
-    kjkj.classList.toggle('active');
-})
+document.addEventListener('keypress',function (e){
+    if (e.keyCode === 'Escape') document.getElementById('close');
+});
