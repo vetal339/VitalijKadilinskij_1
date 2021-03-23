@@ -56,24 +56,23 @@ main{
     font-size: 22px;
     line-height: 35px;
     margin-top: 29px;
-    margin-left: 26px;
+    margin-left: 85px;
 }
 .leftmenu{
-    list-style-type: none;
+    list-style-type: none;/*disc*/
     padding-left: 0;
     margin: 0;
 }
 .list{
+    color: #303030;
     margin-bottom: 50px;
 }
-.list a{
-    color: #303030;
-    text-decoration: none;
-}
-.list a:hover{
+.list:hover{
+    cursor: pointer;
     color: #1B9448;
 }
-.list a:active{
+.list .list1{
+    display: none;
     font-family: Raleway;
     font-weight: 700;
     font-style: normal;
@@ -81,22 +80,15 @@ main{
     line-height: 35px;
     color: #1B9448;
 }
-.list .tea{
-    font-family: Raleway;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 22px;
-    line-height: 35px;
-    color: #1B9448;
-}
-.elliosgreen{
-    display: flex;
-    width: 9px;
-    height: 9px;
-    margin-left: 50px;
-    margin-top: 42px;
-    margin-right: 0;
-}
+    .elliosgreen {
+        position: absolute;
+        display: none;
+        width: 9px;
+        height: 9px;
+        margin-left: 50px;
+        margin-top: 42px;
+        margin-right: 0;
+    }
 .contentmenu{
     display: flex;
 }
@@ -676,7 +668,7 @@ hr{
 @media (max-width: 768px) {
     main{
         width: 768px;
-        height: 1535px;
+        height: 1604px;
     }
     .main{
         display: flex;
@@ -1346,5 +1338,11 @@ hr{
     }
     .conteiner6:hover .more_6{
         display: flex;
+    }
+}
+@media (max-width: 375px) {
+    main{
+        width: 100%;
+        height: 1535px;
     }
 }
