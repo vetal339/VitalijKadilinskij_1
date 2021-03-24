@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="css/productions/main.css">
     <link rel="stylesheet" href="css/productions/windowproduct.css">
     <link rel="stylesheet" href="css/productions/footer.css">
+    <link rel="stylesheet" href="css/productions/coffee/coffee.css">
+    <link rel="stylesheet" href="css/productions/cocoa/cocoa.css">
+    <link rel="stylesheet" href="css/productions/snacks/snacks.css">
 </head>
 <body>
 <header class="header_pos">
@@ -34,7 +37,7 @@
         <div class="RU">RU</div>
         <input type="image" src="img/minilog/Vector%205.svg" alt="" class="vector">
     </div>
-    <script src="js/productionmenu.js"></script>
+    <script src="js/product/productionmenu.js"></script>
 </header>
 <main>
     <div class="main">
@@ -45,13 +48,16 @@
     </form>
     </div>
     <div class="contentmenu">
-    <img src="img/minilog/EllipseGreen.svg" alt="" class="elliosgreen">
+        <img src="img/minilog/EllipseGreen.svg" alt="" class="elliosgreen1" id="el1">
+        <img src="img/minilog/EllipseGreen.svg" alt="" class="elliosgreen2" id="el2">
+        <img src="img/minilog/EllipseGreen.svg" alt="" class="elliosgreen3" id="el3">
+        <img src="img/minilog/EllipseGreen.svg" alt="" class="elliosgreen4" id="el4">
     <div class="midleleftmenu">
         <ul class="leftmenu">
-            <li class="list list1">Чай</li>
-            <li class="list list1">Кофе</li>
-            <li class="list list1">Какао,цикорий,<br>горячие напитки</li>
-            <li class="list list1">Снэки</li>
+            <li class="list list1" data-target="el1">Чай</li>
+            <li class="list list2" data-target="el2">Кофе</li>
+            <li class="list list3" data-target="el3">Какао,цикорий,<br>горячие напитки</li>
+            <li class="list list4" data-target="el4">Снэки</li>
         </ul>
     </div>
     </div>
@@ -161,28 +167,250 @@
                 <input type="button" value="Подробнее" class="more_6" data-target="product_6">
         </div>
     </div>
-    <div id="product_1">
-    <div class="windowvisible">
-        <div class="windowimg">
-            <img src="img/product_list_image/windowvisible/vs_black%20100g%202.png" alt="">
-        </div>
-        <div class="windowoptions">
-            <div class="header_window">Восточная сказка </div>
-            <div class="window_weight_text">Масса нетто:<span> 100г</span></div>
-            <div class="windowtype">Листовой</div>
-            <div class="windowvariety">Чёрный</div>
-            <div class="windowfeatures">Подарочная упаковка</div>
-            <div class="packinginfo">
-                Удачная упаковка, создана профессионалами! Прозрачное окошко демонстрирует преимущества товара.
+    <div class="coffeeflexcontainer">
+        <div class="conteiner2_1">
+            <div class="img_1conteiner_1">
+                <img src="img/product_list_image/vs_black%20100g%201.png" alt="">
             </div>
-            <div class="compositioninfo">
-                Чай "Восточная сказка" сделан из 100%-ного цейлонского сырья. В составе только крупный лист.
+            <div class="img_2conteiner_1">
+                <img src="img/product_list_image/Ellipse%2016.svg" alt="">
             </div>
+            <span class="weight_1">200 г</span>
+            <p class="productname_1">Восточная сказка</p>
+            <p class="producttype_1">Чёрный, листовой</p>
+            <input type="button" value="Подробнее" class="more2_1" data-target="product2_1">
         </div>
-        <div>
-            <input type="image" src="img/product_list_image/windowvisible/close.svg" alt="" data-target="product_1" class="closewindow_1">
+        <div class="conteiner2_2">
+            <div class="img_1conteiner_2">
+                <img src="img/product_list_image/vs_black%20100g%201.png" alt="">
+            </div>
+            <div class="img_2conteiner_2">
+                <img src="img/product_list_image/Ellipse%2016.svg" alt="">
+            </div>
+            <span class="weight_2">200 г</span>
+            <p class="productname_2">Восточная сказка</p>
+            <p class="producttype_2">Чёрный, листовой</p>
+            <input type="button" value="Подробнее" class="more2_2" data-target="product2_2">
+        </div>
+        <div class="conteiner2_3">
+            <div class="img_1conteiner_3">
+                <img src="img/product_list_image/vs_black%20100g%201.png" alt="">
+            </div>
+            <div class="img_2conteiner_3">
+                <img src="img/product_list_image/Ellipse%2016.svg" alt="">
+            </div>
+            <span class="weight_3">200 г</span>
+            <p class="productname_3">Восточная сказка</p>
+            <p class="producttype_3">Чёрный, листовой</p>
+            <input type="button" value="Подробнее" class="more2_3" data-target="product2_3">
+        </div>
+        <div class="conteiner2_4">
+            <div class="img_1conteiner_4">
+                <img src="img/product_list_image/vs_black%20100g%201.png" alt="">
+            </div>
+            <div class="img_2conteiner_4">
+                <img src="img/product_list_image/Ellipse%2016.svg" alt="">
+            </div>
+            <span class="weight_4">200 г</span>
+            <p class="productname_4">Восточная сказка</p>
+            <p class="producttype_4">Чёрный, листовой</p>
+            <input type="button" value="Подробнее" class="more2_4" data-target="product2_4">
+        </div>
+        <div class="conteiner2_5">
+            <div class="img_1conteiner_5">
+                <img src="img/product_list_image/vs_black%20100g%201.png" alt="">
+            </div>
+            <div class="img_2conteiner_5">
+                <img src="img/product_list_image/Ellipse%2016.svg" alt="">
+            </div>
+            <span class="weight_5">200 г</span>
+            <p class="productname_5">Восточная сказка</p>
+            <p class="producttype_5">Чёрный, листовой</p>
+            <input type="button" value="Подробнее" class="more2_5" data-target="product2_5">
+        </div>
+        <div class="conteiner2_6">
+            <div class="img_1conteiner_6">
+                <img src="img/product_list_image/vs_black%20100g%201.png" alt="">
+            </div>
+            <div class="img_2conteiner_6">
+                <img src="img/product_list_image/Ellipse%2016.svg" alt="">
+            </div>
+            <span class="weight_6">200 г</span>
+            <p class="productname_6">Восточная сказка</p>
+            <p class="producttype_6">Чёрный, листовой</p>
+            <input type="button" value="Подробнее" class="more2_6" data-target="product2_6">
         </div>
     </div>
+    <div class="cocoaflexcontainer">
+        <div class="conteiner3_1">
+            <div class="img_1conteiner_1">
+                <img src="img/product_list_image/vs_black%20100g%201.png" alt="">
+            </div>
+            <div class="img_2conteiner_1">
+                <img src="img/product_list_image/Ellipse%2016.svg" alt="">
+            </div>
+            <span class="weight_1">300 г</span>
+            <p class="productname_1">Восточная сказка</p>
+            <p class="producttype_1">Чёрный, листовой</p>
+            <input type="button" value="Подробнее" class="more3_1" data-target="product3_1">
+        </div>
+        <div class="conteiner3_2">
+            <div class="img_1conteiner_2">
+                <img src="img/product_list_image/vs_black%20100g%201.png" alt="">
+            </div>
+            <div class="img_2conteiner_2">
+                <img src="img/product_list_image/Ellipse%2016.svg" alt="">
+            </div>
+            <span class="weight_2">300 г</span>
+            <p class="productname_2">Восточная сказка</p>
+            <p class="producttype_2">Чёрный, листовой</p>
+            <input type="button" value="Подробнее" class="more3_2" data-target="product3_2">
+        </div>
+        <div class="conteiner3_3">
+            <div class="img_1conteiner_3">
+                <img src="img/product_list_image/vs_black%20100g%201.png" alt="">
+            </div>
+            <div class="img_2conteiner_3">
+                <img src="img/product_list_image/Ellipse%2016.svg" alt="">
+            </div>
+            <span class="weight_3">300 г</span>
+            <p class="productname_3">Восточная сказка</p>
+            <p class="producttype_3">Чёрный, листовой</p>
+            <input type="button" value="Подробнее" class="more3_3" data-target="product3_3">
+        </div>
+        <div class="conteiner3_4">
+            <div class="img_1conteiner_4">
+                <img src="img/product_list_image/vs_black%20100g%201.png" alt="">
+            </div>
+            <div class="img_2conteiner_4">
+                <img src="img/product_list_image/Ellipse%2016.svg" alt="">
+            </div>
+            <span class="weight_4">300 г</span>
+            <p class="productname_4">Восточная сказка</p>
+            <p class="producttype_4">Чёрный, листовой</p>
+            <input type="button" value="Подробнее" class="more3_4" data-target="product3_4">
+        </div>
+        <div class="conteiner3_5">
+            <div class="img_1conteiner_5">
+                <img src="img/product_list_image/vs_black%20100g%201.png" alt="">
+            </div>
+            <div class="img_2conteiner_5">
+                <img src="img/product_list_image/Ellipse%2016.svg" alt="">
+            </div>
+            <span class="weight_5">300 г</span>
+            <p class="productname_5">Восточная сказка</p>
+            <p class="producttype_5">Чёрный, листовой</p>
+            <input type="button" value="Подробнее" class="more3_5" data-target="product3_5">
+        </div>
+        <div class="conteiner3_6">
+            <div class="img_1conteiner_6">
+                <img src="img/product_list_image/vs_black%20100g%201.png" alt="">
+            </div>
+            <div class="img_2conteiner_6">
+                <img src="img/product_list_image/Ellipse%2016.svg" alt="">
+            </div>
+            <span class="weight_6">300 г</span>
+            <p class="productname_6">Восточная сказка</p>
+            <p class="producttype_6">Чёрный, листовой</p>
+            <input type="button" value="Подробнее" class="more3_6" data-target="product3_6">
+        </div>
+    </div>
+    <div class="snacksflexcontainer">
+        <div class="conteiner4_1">
+            <div class="img_1conteiner_1">
+                <img src="img/product_list_image/vs_black%20100g%201.png" alt="">
+            </div>
+            <div class="img_2conteiner_1">
+                <img src="img/product_list_image/Ellipse%2016.svg" alt="">
+            </div>
+            <span class="weight_1">400 г</span>
+            <p class="productname_1">Восточная сказка</p>
+            <p class="producttype_1">Чёрный, листовой</p>
+            <input type="button" value="Подробнее" class="more4_1" data-target="product4_1">
+        </div>
+        <div class="conteiner4_2">
+            <div class="img_1conteiner_2">
+                <img src="img/product_list_image/vs_black%20100g%201.png" alt="">
+            </div>
+            <div class="img_2conteiner_2">
+                <img src="img/product_list_image/Ellipse%2016.svg" alt="">
+            </div>
+            <span class="weight_2">400 г</span>
+            <p class="productname_2">Восточная сказка</p>
+            <p class="producttype_2">Чёрный, листовой</p>
+            <input type="button" value="Подробнее" class="more4_2" data-target="product4_2">
+        </div>
+        <div class="conteiner4_3">
+            <div class="img_1conteiner_3">
+                <img src="img/product_list_image/vs_black%20100g%201.png" alt="">
+            </div>
+            <div class="img_2conteiner_3">
+                <img src="img/product_list_image/Ellipse%2016.svg" alt="">
+            </div>
+            <span class="weight_3">400 г</span>
+            <p class="productname_3">Восточная сказка</p>
+            <p class="producttype_3">Чёрный, листовой</p>
+            <input type="button" value="Подробнее" class="more4_3" data-target="product4_3">
+        </div>
+        <div class="conteiner4_4">
+            <div class="img_1conteiner_4">
+                <img src="img/product_list_image/vs_black%20100g%201.png" alt="">
+            </div>
+            <div class="img_2conteiner_4">
+                <img src="img/product_list_image/Ellipse%2016.svg" alt="">
+            </div>
+            <span class="weight_4">400 г</span>
+            <p class="productname_4">Восточная сказка</p>
+            <p class="producttype_4">Чёрный, листовой</p>
+            <input type="button" value="Подробнее" class="more4_4" data-target="product4_4">
+        </div>
+        <div class="conteiner4_5">
+            <div class="img_1conteiner_5">
+                <img src="img/product_list_image/vs_black%20100g%201.png" alt="">
+            </div>
+            <div class="img_2conteiner_5">
+                <img src="img/product_list_image/Ellipse%2016.svg" alt="">
+            </div>
+            <span class="weight_5">400 г</span>
+            <p class="productname_5">Восточная сказка</p>
+            <p class="producttype_5">Чёрный, листовой</p>
+            <input type="button" value="Подробнее" class="more4_5" data-target="product4_5">
+        </div>
+        <div class="conteiner4_6">
+            <div class="img_1conteiner_6">
+                <img src="img/product_list_image/vs_black%20100g%201.png" alt="">
+            </div>
+            <div class="img_2conteiner_6">
+                <img src="img/product_list_image/Ellipse%2016.svg" alt="">
+            </div>
+            <span class="weight_6">400 г</span>
+            <p class="productname_6">Восточная сказка</p>
+            <p class="producttype_6">Чёрный, листовой</p>
+            <input type="button" value="Подробнее" class="more4_6" data-target="product4_6">
+        </div>
+    </div>
+    <div id="product_1">
+        <div class="windowvisible">
+            <div class="windowimg">
+                <img src="img/product_list_image/windowvisible/vs_black%20100g%202.png" alt="">
+            </div>
+            <div class="windowoptions">
+                <div class="header_window">Восточная сказка </div>
+                <div class="window_weight_text">Масса нетто:<span> 100г</span></div>
+                <div class="windowtype">Листовой</div>
+                <div class="windowvariety">Чёрный</div>
+                <div class="windowfeatures">Подарочная упаковка</div>
+                <div class="packinginfo">
+                    Удачная упаковка, создана профессионалами! Прозрачное окошко демонстрирует преимущества товара.
+                </div>
+                <div class="compositioninfo">
+                    Чай "Восточная сказка" сделан из 100%-ного цейлонского сырья. В составе только крупный лист.
+                </div>
+            </div>
+            <div>
+                <input type="image" src="img/product_list_image/windowvisible/close.svg" alt="" data-target="product_1" class="closewindow_1">
+            </div>
+        </div>
     </div>
     <div id="product_2">
         <div class="windowvisible">
@@ -299,6 +527,420 @@
             </div>
         </div>
     </div>
+    <div id="product2_1">
+    <div class="windowvisible">
+        <div class="windowimg">
+            <img src="img/product_list_image/windowvisible/vs_black%20100g%202.png" alt="">
+        </div>
+        <div class="windowoptions">
+            <div class="header_window">Восточная сказка </div>
+            <div class="window_weight_text">Масса нетто:<span> 100г</span></div>
+            <div class="windowtype">Листовой</div>
+            <div class="windowvariety">Чёрный</div>
+            <div class="windowfeatures">Подарочная упаковка</div>
+            <div class="packinginfo">
+                Удачная упаковка, создана профессионалами! Прозрачное окошко демонстрирует преимущества товара.
+            </div>
+            <div class="compositioninfo">
+                Чай "Восточная сказка" сделан из 100%-ного цейлонского сырья. В составе только крупный лист.
+            </div>
+        </div>
+        <div>
+            <input type="image" src="img/product_list_image/windowvisible/close.svg" alt="" data-target="product2_1" class="closewindow2_1">
+        </div>
+    </div>
+    </div>
+    <div id="product2_2">
+        <div class="windowvisible">
+            <div class="windowimg">
+                <img src="img/product_list_image/windowvisible/vs_black%20100g%202.png" alt="">
+            </div>
+            <div class="windowoptions">
+                <div class="header_window">Восточная сказка </div>
+                <div class="window_weight_text">Масса нетто:<span> 100г</span></div>
+                <div class="windowtype">Листовой</div>
+                <div class="windowvariety">Чёрный</div>
+                <div class="windowfeatures">Подарочная упаковка</div>
+                <div class="packinginfo">
+                    Удачная упаковка, создана профессионалами! Прозрачное окошко демонстрирует преимущества товара.
+                </div>
+                <div class="compositioninfo">
+                    Чай "Восточная сказка" сделан из 100%-ного цейлонского сырья. В составе только крупный лист.
+                </div>
+            </div>
+            <div>
+                <input type="image" src="img/product_list_image/windowvisible/close.svg" alt="" data-target="product2_2" class="closewindow2_2">
+            </div>
+        </div>
+    </div>
+    <div id="product2_3">
+        <div class="windowvisible">
+            <div class="windowimg">
+                <img src="img/product_list_image/windowvisible/vs_black%20100g%202.png" alt="">
+            </div>
+            <div class="windowoptions">
+                <div class="header_window">Восточная сказка </div>
+                <div class="window_weight_text">Масса нетто:<span> 100г</span></div>
+                <div class="windowtype">Листовой</div>
+                <div class="windowvariety">Чёрный</div>
+                <div class="windowfeatures">Подарочная упаковка</div>
+                <div class="packinginfo">
+                    Удачная упаковка, создана профессионалами! Прозрачное окошко демонстрирует преимущества товара.
+                </div>
+                <div class="compositioninfo">
+                    Чай "Восточная сказка" сделан из 100%-ного цейлонского сырья. В составе только крупный лист.
+                </div>
+            </div>
+            <div>
+                <input type="image" src="img/product_list_image/windowvisible/close.svg" alt="" data-target="product2_3"  class="closewindow2_3">
+            </div>
+        </div>
+    </div>
+    <div id="product2_4">
+        <div class="windowvisible">
+            <div class="windowimg">
+                <img src="img/product_list_image/windowvisible/vs_black%20100g%202.png" alt="">
+            </div>
+            <div class="windowoptions">
+                <div class="header_window">Восточная сказка </div>
+                <div class="window_weight_text">Масса нетто:<span> 200г</span></div>
+                <div class="windowtype">Листовой</div>
+                <div class="windowvariety">Чёрный</div>
+                <div class="windowfeatures">Подарочная упаковка</div>
+                <div class="packinginfo">
+                    Удачная упаковка, создана профессионалами! Прозрачное окошко демонстрирует преимущества товара.
+                </div>
+                <div class="compositioninfo">
+                    Чай "Восточная сказка" сделан из 100%-ного цейлонского сырья. В составе только крупный лист.
+                </div>
+            </div>
+            <div>
+                <input type="image" src="img/product_list_image/windowvisible/close.svg" alt="" data-target="product2_4"  class="closewindow2_4">
+            </div>
+        </div>
+    </div>
+    <div id="product2_5">
+        <div class="windowvisible">
+            <div class="windowimg">
+                <img src="img/product_list_image/windowvisible/vs_black%20100g%202.png" alt="">
+            </div>
+            <div class="windowoptions">
+                <div class="header_window">Восточная сказка </div>
+                <div class="window_weight_text">Масса нетто:<span> 200г</span></div>
+                <div class="windowtype">Листовой</div>
+                <div class="windowvariety">Чёрный</div>
+                <div class="windowfeatures">Подарочная упаковка</div>
+                <div class="packinginfo">
+                    Удачная упаковка, создана профессионалами! Прозрачное окошко демонстрирует преимущества товара.
+                </div>
+                <div class="compositioninfo">
+                    Чай "Восточная сказка" сделан из 100%-ного цейлонского сырья. В составе только крупный лист.
+                </div>
+            </div>
+            <div>
+                <input type="image" src="img/product_list_image/windowvisible/close.svg" alt="" data-target="product2_5"  class="closewindow2_5">
+            </div>
+        </div>
+    </div>
+    <div id="product2_6">
+        <div class="windowvisible">
+            <div class="windowimg">
+                <img src="img/product_list_image/windowvisible/vs_black%20100g%202.png" alt="">
+            </div>
+            <div class="windowoptions">
+                <div class="header_window">Восточная сказка </div>
+                <div class="window_weight_text">Масса нетто:<span> 200г</span></div>
+                <div class="windowtype">Листовой</div>
+                <div class="windowvariety">Чёрный</div>
+                <div class="windowfeatures">Подарочная упаковка</div>
+                <div class="packinginfo">
+                    Удачная упаковка, создана профессионалами! Прозрачное окошко демонстрирует преимущества товара.
+                </div>
+                <div class="compositioninfo">
+                    Чай "Восточная сказка" сделан из 100%-ного цейлонского сырья. В составе только крупный лист.
+                </div>
+            </div>
+            <div>
+                <input type="image" src="img/product_list_image/windowvisible/close.svg" alt="" data-target="product2_6"  class="closewindow2_6">
+            </div>
+        </div>
+    </div>
+    <div id="product3_1">
+        <div class="windowvisible">
+            <div class="windowimg">
+                <img src="img/product_list_image/windowvisible/vs_black%20100g%202.png" alt="">
+            </div>
+            <div class="windowoptions">
+                <div class="header_window">Восточная сказка </div>
+                <div class="window_weight_text">Масса нетто:<span> 100г</span></div>
+                <div class="windowtype">Листовой</div>
+                <div class="windowvariety">Чёрный</div>
+                <div class="windowfeatures">Подарочная упаковка</div>
+                <div class="packinginfo">
+                    Удачная упаковка, создана профессионалами! Прозрачное окошко демонстрирует преимущества товара.
+                </div>
+                <div class="compositioninfo">
+                    Чай "Восточная сказка" сделан из 100%-ного цейлонского сырья. В составе только крупный лист.
+                </div>
+            </div>
+            <div>
+                <input type="image" src="img/product_list_image/windowvisible/close.svg" alt="" data-target="product3_1" class="closewindow3_1">
+            </div>
+        </div>
+    </div>
+    <div id="product3_2">
+        <div class="windowvisible">
+            <div class="windowimg">
+                <img src="img/product_list_image/windowvisible/vs_black%20100g%202.png" alt="">
+            </div>
+            <div class="windowoptions">
+                <div class="header_window">Восточная сказка </div>
+                <div class="window_weight_text">Масса нетто:<span> 100г</span></div>
+                <div class="windowtype">Листовой</div>
+                <div class="windowvariety">Чёрный</div>
+                <div class="windowfeatures">Подарочная упаковка</div>
+                <div class="packinginfo">
+                    Удачная упаковка, создана профессионалами! Прозрачное окошко демонстрирует преимущества товара.
+                </div>
+                <div class="compositioninfo">
+                    Чай "Восточная сказка" сделан из 100%-ного цейлонского сырья. В составе только крупный лист.
+                </div>
+            </div>
+            <div>
+                <input type="image" src="img/product_list_image/windowvisible/close.svg" alt="" data-target="product3_2" class="closewindow3_2">
+            </div>
+        </div>
+    </div>
+    <div id="product3_3">
+        <div class="windowvisible">
+            <div class="windowimg">
+                <img src="img/product_list_image/windowvisible/vs_black%20100g%202.png" alt="">
+            </div>
+            <div class="windowoptions">
+                <div class="header_window">Восточная сказка </div>
+                <div class="window_weight_text">Масса нетто:<span> 100г</span></div>
+                <div class="windowtype">Листовой</div>
+                <div class="windowvariety">Чёрный</div>
+                <div class="windowfeatures">Подарочная упаковка</div>
+                <div class="packinginfo">
+                    Удачная упаковка, создана профессионалами! Прозрачное окошко демонстрирует преимущества товара.
+                </div>
+                <div class="compositioninfo">
+                    Чай "Восточная сказка" сделан из 100%-ного цейлонского сырья. В составе только крупный лист.
+                </div>
+            </div>
+            <div>
+                <input type="image" src="img/product_list_image/windowvisible/close.svg" alt="" data-target="product3_3"  class="closewindow3_3">
+            </div>
+        </div>
+    </div>
+    <div id="product3_4">
+        <div class="windowvisible">
+            <div class="windowimg">
+                <img src="img/product_list_image/windowvisible/vs_black%20100g%202.png" alt="">
+            </div>
+            <div class="windowoptions">
+                <div class="header_window">Восточная сказка </div>
+                <div class="window_weight_text">Масса нетто:<span> 100г</span></div>
+                <div class="windowtype">Листовой</div>
+                <div class="windowvariety">Чёрный</div>
+                <div class="windowfeatures">Подарочная упаковка</div>
+                <div class="packinginfo">
+                    Удачная упаковка, создана профессионалами! Прозрачное окошко демонстрирует преимущества товара.
+                </div>
+                <div class="compositioninfo">
+                    Чай "Восточная сказка" сделан из 100%-ного цейлонского сырья. В составе только крупный лист.
+                </div>
+            </div>
+            <div>
+                <input type="image" src="img/product_list_image/windowvisible/close.svg" alt="" data-target="product3_4"  class="closewindow3_4">
+            </div>
+        </div>
+    </div>
+    <div id="product3_5">
+        <div class="windowvisible">
+            <div class="windowimg">
+                <img src="img/product_list_image/windowvisible/vs_black%20100g%202.png" alt="">
+            </div>
+            <div class="windowoptions">
+                <div class="header_window">Восточная сказка </div>
+                <div class="window_weight_text">Масса нетто:<span> 100г</span></div>
+                <div class="windowtype">Листовой</div>
+                <div class="windowvariety">Чёрный</div>
+                <div class="windowfeatures">Подарочная упаковка</div>
+                <div class="packinginfo">
+                    Удачная упаковка, создана профессионалами! Прозрачное окошко демонстрирует преимущества товара.
+                </div>
+                <div class="compositioninfo">
+                    Чай "Восточная сказка" сделан из 100%-ного цейлонского сырья. В составе только крупный лист.
+                </div>
+            </div>
+            <div>
+                <input type="image" src="img/product_list_image/windowvisible/close.svg" alt="" data-target="product3_5"  class="closewindow3_5">
+            </div>
+        </div>
+    </div>
+    <div id="product3_6">
+        <div class="windowvisible">
+            <div class="windowimg">
+                <img src="img/product_list_image/windowvisible/vs_black%20100g%202.png" alt="">
+            </div>
+            <div class="windowoptions">
+                <div class="header_window">Восточная сказка </div>
+                <div class="window_weight_text">Масса нетто:<span> 100г</span></div>
+                <div class="windowtype">Листовой</div>
+                <div class="windowvariety">Чёрный</div>
+                <div class="windowfeatures">Подарочная упаковка</div>
+                <div class="packinginfo">
+                    Удачная упаковка, создана профессионалами! Прозрачное окошко демонстрирует преимущества товара.
+                </div>
+                <div class="compositioninfo">
+                    Чай "Восточная сказка" сделан из 100%-ного цейлонского сырья. В составе только крупный лист.
+                </div>
+            </div>
+            <div>
+                <input type="image" src="img/product_list_image/windowvisible/close.svg" alt="" data-target="product3_6"  class="closewindow3_6">
+            </div>
+        </div>
+    </div>
+    <div id="product4_1">
+        <div class="windowvisible">
+            <div class="windowimg">
+                <img src="img/product_list_image/windowvisible/vs_black%20100g%202.png" alt="">
+            </div>
+            <div class="windowoptions">
+                <div class="header_window">Восточная сказка </div>
+                <div class="window_weight_text">Масса нетто:<span> 100г</span></div>
+                <div class="windowtype">Листовой</div>
+                <div class="windowvariety">Чёрный</div>
+                <div class="windowfeatures">Подарочная упаковка</div>
+                <div class="packinginfo">
+                    Удачная упаковка, создана профессионалами! Прозрачное окошко демонстрирует преимущества товара.
+                </div>
+                <div class="compositioninfo">
+                    Чай "Восточная сказка" сделан из 100%-ного цейлонского сырья. В составе только крупный лист.
+                </div>
+            </div>
+            <div>
+                <input type="image" src="img/product_list_image/windowvisible/close.svg" alt="" data-target="product4_1" class="closewindow4_1">
+            </div>
+        </div>
+    </div>
+    <div id="product4_2">
+        <div class="windowvisible">
+            <div class="windowimg">
+                <img src="img/product_list_image/windowvisible/vs_black%20100g%202.png" alt="">
+            </div>
+            <div class="windowoptions">
+                <div class="header_window">Восточная сказка </div>
+                <div class="window_weight_text">Масса нетто:<span> 100г</span></div>
+                <div class="windowtype">Листовой</div>
+                <div class="windowvariety">Чёрный</div>
+                <div class="windowfeatures">Подарочная упаковка</div>
+                <div class="packinginfo">
+                    Удачная упаковка, создана профессионалами! Прозрачное окошко демонстрирует преимущества товара.
+                </div>
+                <div class="compositioninfo">
+                    Чай "Восточная сказка" сделан из 100%-ного цейлонского сырья. В составе только крупный лист.
+                </div>
+            </div>
+            <div>
+                <input type="image" src="img/product_list_image/windowvisible/close.svg" alt="" data-target="product4_2" class="closewindow4_2">
+            </div>
+        </div>
+    </div>
+    <div id="product4_3">
+        <div class="windowvisible">
+            <div class="windowimg">
+                <img src="img/product_list_image/windowvisible/vs_black%20100g%202.png" alt="">
+            </div>
+            <div class="windowoptions">
+                <div class="header_window">Восточная сказка </div>
+                <div class="window_weight_text">Масса нетто:<span> 100г</span></div>
+                <div class="windowtype">Листовой</div>
+                <div class="windowvariety">Чёрный</div>
+                <div class="windowfeatures">Подарочная упаковка</div>
+                <div class="packinginfo">
+                    Удачная упаковка, создана профессионалами! Прозрачное окошко демонстрирует преимущества товара.
+                </div>
+                <div class="compositioninfo">
+                    Чай "Восточная сказка" сделан из 100%-ного цейлонского сырья. В составе только крупный лист.
+                </div>
+            </div>
+            <div>
+                <input type="image" src="img/product_list_image/windowvisible/close.svg" alt="" data-target="product4_3"  class="closewindow4_3">
+            </div>
+        </div>
+    </div>
+    <div id="product4_4">
+        <div class="windowvisible">
+            <div class="windowimg">
+                <img src="img/product_list_image/windowvisible/vs_black%20100g%202.png" alt="">
+            </div>
+            <div class="windowoptions">
+                <div class="header_window">Восточная сказка </div>
+                <div class="window_weight_text">Масса нетто:<span> 100г</span></div>
+                <div class="windowtype">Листовой</div>
+                <div class="windowvariety">Чёрный</div>
+                <div class="windowfeatures">Подарочная упаковка</div>
+                <div class="packinginfo">
+                    Удачная упаковка, создана профессионалами! Прозрачное окошко демонстрирует преимущества товара.
+                </div>
+                <div class="compositioninfo">
+                    Чай "Восточная сказка" сделан из 100%-ного цейлонского сырья. В составе только крупный лист.
+                </div>
+            </div>
+            <div>
+                <input type="image" src="img/product_list_image/windowvisible/close.svg" alt="" data-target="product4_4"  class="closewindow4_4">
+            </div>
+        </div>
+    </div>
+    <div id="product4_5">
+        <div class="windowvisible">
+            <div class="windowimg">
+                <img src="img/product_list_image/windowvisible/vs_black%20100g%202.png" alt="">
+            </div>
+            <div class="windowoptions">
+                <div class="header_window">Восточная сказка </div>
+                <div class="window_weight_text">Масса нетто:<span> 100г</span></div>
+                <div class="windowtype">Листовой</div>
+                <div class="windowvariety">Чёрный</div>
+                <div class="windowfeatures">Подарочная упаковка</div>
+                <div class="packinginfo">
+                    Удачная упаковка, создана профессионалами! Прозрачное окошко демонстрирует преимущества товара.
+                </div>
+                <div class="compositioninfo">
+                    Чай "Восточная сказка" сделан из 100%-ного цейлонского сырья. В составе только крупный лист.
+                </div>
+            </div>
+            <div>
+                <input type="image" src="img/product_list_image/windowvisible/close.svg" alt="" data-target="product4_5"  class="closewindow4_5">
+            </div>
+        </div>
+    </div>
+    <div id="product4_6">
+        <div class="windowvisible">
+            <div class="windowimg">
+                <img src="img/product_list_image/windowvisible/vs_black%20100g%202.png" alt="">
+            </div>
+            <div class="windowoptions">
+                <div class="header_window">Восточная сказка </div>
+                <div class="window_weight_text">Масса нетто:<span> 100г</span></div>
+                <div class="windowtype">Листовой</div>
+                <div class="windowvariety">Чёрный</div>
+                <div class="windowfeatures">Подарочная упаковка</div>
+                <div class="packinginfo">
+                    Удачная упаковка, создана профессионалами! Прозрачное окошко демонстрирует преимущества товара.
+                </div>
+                <div class="compositioninfo">
+                    Чай "Восточная сказка" сделан из 100%-ного цейлонского сырья. В составе только крупный лист.
+                </div>
+            </div>
+            <div>
+                <input type="image" src="img/product_list_image/windowvisible/close.svg" alt="" data-target="product4_6"  class="closewindow4_6">
+            </div>
+        </div>
+    </div>
 </main>
 <footer>
     <div class="buttomstring">
@@ -336,8 +978,15 @@
             </p>
         </div>
     </div>
-    <script src="js/leftmenu.js"></script>
-    <script src="js/window.js"></script>
+    <script src="js/product/leftmenu.js"></script>
+    <script src="js/product/tea/windowtea.js"></script>
+    <script src="js/product/tea/moretea.js"></script>
+    <script src="js/product/coffee/morecoffee.js"></script>
+    <script src="js/product/coffee/windowcoffee.js"></script>
+    <script src="js/product/cocoa/morecocoa.js"></script>
+    <script src="js/product/cocoa/windowcocoa.js"></script>
+    <script src="js/product/snacks/moresnacks.js"></script>
+    <script src="js/product/snacks/windowsnacks.js"></script>
 </footer>
 </body>
 </html>

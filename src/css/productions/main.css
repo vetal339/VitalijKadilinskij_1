@@ -71,8 +71,7 @@ main{
     cursor: pointer;
     color: #1B9448;
 }
-.list .list1{
-    display: none;
+.newlist{
     font-family: Raleway;
     font-weight: 700;
     font-style: normal;
@@ -80,7 +79,9 @@ main{
     line-height: 35px;
     color: #1B9448;
 }
-    .elliosgreen {
+
+
+    .elliosgreen1 {
         position: absolute;
         display: none;
         width: 9px;
@@ -89,6 +90,36 @@ main{
         margin-top: 42px;
         margin-right: 0;
     }
+    .elliosgreen2 {
+        position: absolute;
+        display: none;
+        width: 9px;
+        height: 9px;
+        margin-left: 50px;
+        margin-top: 128px;
+        margin-right: 0;
+    }
+    .elliosgreen3 {
+        position: absolute;
+        display: none;
+        width: 9px;
+        height: 9px;
+        margin-left: 50px;
+        margin-top: 228px;
+        margin-right: 0;
+    }
+    .elliosgreen4 {
+        position: absolute;
+        display: none;
+        width: 9px;
+        height: 9px;
+        margin-left: 50px;
+        margin-top: 332px;
+        margin-right: 0;
+    }
+
+
+
 .contentmenu{
     display: flex;
 }
@@ -183,6 +214,7 @@ hr{
     margin-left: 355px;
     margin-top: 40px;
 }
+
 .conteiner1{
     display: flex;
     flex-direction: column;
@@ -306,9 +338,7 @@ hr{
     margin-top: -169px;
     margin-left: 70px;
 }
-.conteiner1:hover .more_1{
-    display: flex;
-}
+
 .img_1conteiner_2{
     width: 134px;
     height: 142px;
@@ -376,9 +406,6 @@ hr{
     cursor: pointer;
     margin-top: -169px;
     margin-left: 70px;
-}
-.conteiner2:hover .more_2{
-    display: flex;
 }
 .img_1conteiner_3{
     width: 134px;
@@ -448,9 +475,6 @@ hr{
     margin-top: -169px;
     margin-left: 70px;
 }
-.conteiner3:hover .more_3{
-    display: flex;
-}
 .img_1conteiner_4{
     width: 134px;
     height: 142px;
@@ -518,9 +542,6 @@ hr{
     cursor: pointer;
     margin-top: -169px;
     margin-left: 70px;
-}
-.conteiner4:hover .more_4{
-    display: flex;
 }
 .img_1conteiner_5{
     width: 134px;
@@ -590,9 +611,6 @@ hr{
     margin-top: -169px;
     margin-left: 70px;
 }
-.conteiner5:hover .more_5{
-    display: flex;
-}
 .img_1conteiner_6{
     width: 134px;
     height: 142px;
@@ -660,9 +678,6 @@ hr{
     cursor: pointer;
     margin-top: -169px;
     margin-left: 70px;
-}
-.conteiner6:hover .more_6{
-    display: flex;
 }
 }
 @media (max-width: 768px) {
