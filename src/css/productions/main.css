@@ -20,6 +20,14 @@ main{
     font-size: 35px;
     line-height: 36px;
 }
+    .heading h1{
+        font-family: Raleway;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 35px;
+        line-height: 36px;
+        margin: 0;
+    }
 .headingform{
     display: flex;
     width: 870px;
@@ -693,24 +701,33 @@ hr{
     .heading{
         width: 237px;
         height: 68px;
-        margin-top: 26px;
-        margin-left: 14px;
-        margin-bottom: 0;
+        margin-top: 38px;
+        margin-left: 30px;
         font-family: Raleway;
         font-weight: 700;
         font-style: normal;
-        font-size: 22px;
+        font-size: 25px;
         line-height: 36px;
+    }
+    .heading h1{
+        width: 237px;
+        height: 68px;
+        font-family: Raleway;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 25px;
+        line-height: 36px;
+        margin: 0;
     }
     .headingform{
         display: flex;
-        width: 870px;
-        height: 50px;
-        margin-top: 61px;
-        margin-left: 68px;
+        width: 708px;
+        height: 49px;
+        margin-top: -7px;
+        margin-left: 30px;
     }
     .headingsearch{
-        width: 713px;
+        width: 551px;
         height: 49px;
         background: #FFFFFF;
         border: 0;
@@ -738,24 +755,22 @@ hr{
         font-size: 22px;
         line-height: 35px;
         margin-top: 29px;
-        margin-left: 26px;
+        margin-left: 85px;
     }
     .leftmenu{
-        list-style-type: none;
+        list-style-type: none;/*disc*/
         padding-left: 0;
         margin: 0;
     }
     .list{
+        color: #303030;
         margin-bottom: 50px;
     }
-    .list a{
-        color: #303030;
-        text-decoration: none;
-    }
-    .list a:hover{
+    .list:hover{
+        cursor: pointer;
         color: #1B9448;
     }
-    .list a:active{
+    .newlist{
         font-family: Raleway;
         font-weight: 700;
         font-style: normal;
@@ -763,22 +778,47 @@ hr{
         line-height: 35px;
         color: #1B9448;
     }
-    .list .tea{
-        font-family: Raleway;
-        font-weight: 700;
-        font-style: normal;
-        font-size: 22px;
-        line-height: 35px;
-        color: #1B9448;
-    }
-    .elliosgreen{
-        display: flex;
+
+
+    .elliosgreen1 {
+        position: absolute;
+        display: none;
         width: 9px;
         height: 9px;
         margin-left: 50px;
         margin-top: 42px;
         margin-right: 0;
     }
+    .elliosgreen2 {
+        position: absolute;
+        display: none;
+        width: 9px;
+        height: 9px;
+        margin-left: 50px;
+        margin-top: 128px;
+        margin-right: 0;
+    }
+    .elliosgreen3 {
+        position: absolute;
+        display: none;
+        width: 9px;
+        height: 9px;
+        margin-left: 50px;
+        margin-top: 228px;
+        margin-right: 0;
+    }
+    .elliosgreen4 {
+        position: absolute;
+        display: none;
+        width: 9px;
+        height: 9px;
+        margin-left: 50px;
+        margin-top: 332px;
+        margin-right: 0;
+    }
+
+
+
     .contentmenu{
         display: flex;
     }
@@ -873,6 +913,7 @@ hr{
         margin-left: 355px;
         margin-top: 40px;
     }
+
     .conteiner1{
         display: flex;
         flex-direction: column;
@@ -996,9 +1037,7 @@ hr{
         margin-top: -169px;
         margin-left: 70px;
     }
-    .conteiner1:hover .more_1{
-        display: flex;
-    }
+
     .img_1conteiner_2{
         width: 134px;
         height: 142px;
@@ -1066,9 +1105,6 @@ hr{
         cursor: pointer;
         margin-top: -169px;
         margin-left: 70px;
-    }
-    .conteiner2:hover .more_2{
-        display: flex;
     }
     .img_1conteiner_3{
         width: 134px;
@@ -1138,9 +1174,6 @@ hr{
         margin-top: -169px;
         margin-left: 70px;
     }
-    .conteiner3:hover .more_3{
-        display: flex;
-    }
     .img_1conteiner_4{
         width: 134px;
         height: 142px;
@@ -1208,9 +1241,6 @@ hr{
         cursor: pointer;
         margin-top: -169px;
         margin-left: 70px;
-    }
-    .conteiner4:hover .more_4{
-        display: flex;
     }
     .img_1conteiner_5{
         width: 134px;
@@ -1280,9 +1310,6 @@ hr{
         margin-top: -169px;
         margin-left: 70px;
     }
-    .conteiner5:hover .more_5{
-        display: flex;
-    }
     .img_1conteiner_6{
         width: 134px;
         height: 142px;
@@ -1350,9 +1377,6 @@ hr{
         cursor: pointer;
         margin-top: -169px;
         margin-left: 70px;
-    }
-    .conteiner6:hover .more_6{
-        display: flex;
     }
 }
 @media (max-width: 375px) {
